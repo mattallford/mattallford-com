@@ -69,7 +69,7 @@ stages:
       displayName: 'AzureBlob File Copy'
       inputs:
         SourcePath: '$(System.DefaultWorkingDirectory)\deploy\public'
-        azureSubscription: 'Pay-As-You-Go (8c6ccaa9-9f43-4f74-a91e-12a9f922d72c)'
+        azureSubscription: AzureSC
         Destination: AzureBlob
         storage: mattallfordblog
         ContainerName: '$web'
