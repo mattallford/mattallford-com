@@ -65,11 +65,9 @@ stages:
         archiveFilePatterns: '*hugo-site.zip'
         destinationFolder: '$(System.DefaultWorkingDirectory)\deploy'
     
-    - task: AzureFileCopy@3
-      displayName: 'AzureBlob File Copy'
+    - task: AzureCLI@1
+      displayName: 'Copy files to Azure Storage Account'
       inputs:
-        SourcePath: '$(System.DefaultWorkingDirectory)\deploy\public'
         azureSubscription: AzureSC
-        Destination: AzureBlob
-        storage: mattallfordblog
-        ContainerName: '$web'
+        scriptLocation: inlineScript
+        inlineScript: 'az storage blob sync -s “$(System.DefaultWorkingDirectory)\deploy\public” -c $web --account-name mattallfordblog'
