@@ -65,11 +65,11 @@ stages:
         archiveFilePatterns: '$(Pipeline.Workspace)\*hugo-site.zip'
         destinationFolder: '$(System.DefaultWorkingDirectory)\deploy'
 
-    - task: AzureFileCopy@4
+    - task: AzureFileCopy@3
       displayName: 'AzureBlob File Copy'
       inputs:
         SourcePath: '$(System.DefaultWorkingDirectory)\deploy\public'
-        azureSubscription: 'AzureSC'
+        azureSubscription: AzureSC
         Destination: AzureBlob
         storage: mattallfordblog
         ContainerName: '$web'
