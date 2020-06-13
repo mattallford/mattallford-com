@@ -12,31 +12,67 @@ pool:
 variables:
   hugo.version: '0.69.2'
 
-steps:
-- script: wget -c https://github.com/gohugoio/hugo/releases/download/v$(hugo.version)/hugo_$(hugo.version)_Linux-64bit.deb -O '$(Pipeline.Workspace)/hugo_$(hugo.version)_Linux-64bit.deb'
-  displayName: "Download HUGO"
+stages:
 
-- script: sudo dpkg -i $(Pipeline.Workspace)/hugo*.deb
-  displayName: "Install HUGO"
+#Build Stage
+- stage: Build
+  jobs:
+  - job: Build
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: wget -c https://github.com/gohugoio/hugo/releases/download/v$(hugo.version)/hugo_$(hugo.version)_Linux-64bit.deb -O '$(Pipeline.Workspace)/hugo_$(hugo.version)_Linux-64bit.deb'
+      displayName: "Download HUGO"
 
-- script: hugo
-  displayName: Build site with Hugo
+    - script: sudo dpkg -i $(Pipeline.Workspace)/hugo*.deb
+      displayName: "Install HUGO"
 
-- task: CopyFiles@2
-  displayName: Copy Hugo built site files to staging folder "deploy"
-  inputs:
-     Contents: |
-       public/**
-     TargetFolder: deploy
+    - script: hugo
+      displayName: Build site with Hugo
 
-- task: ArchiveFiles@2
-  displayName: Archive built site files
-  inputs:
-   archiveFile: $(Pipeline.Workspace)/hugo-site.zip
-   archiveType: zip
-   replaceExistingArchive: true
-   includeRootFolder: false
-   rootFolderOrFile: ./deploy
+    - task: CopyFiles@2
+      displayName: Copy Hugo built site files to staging folder "deploy"
+      inputs:
+        Contents: |
+          public/**
+        TargetFolder: deploy
 
-- publish: $(Pipeline.Workspace)/hugo-site.zip
-  artifact: hugosite
+    - task: ArchiveFiles@2
+      displayName: Archive built site files
+      inputs:
+        archiveFile: $(Pipeline.Workspace)/hugo-site.zip
+        archiveType: zip
+        replaceExistingArchive: true
+        includeRootFolder: false
+        rootFolderOrFile: ./deploy
+
+    - publish: $(Pipeline.Workspace)/hugo-site.zip
+      artifact: hugosite
+
+#Release Stage
+- stage: release
+  jobs:
+  - job: release
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - checkout: none
+
+    #Download the published artifact
+    - download: current
+      artifact: hugosite
+    
+    - task: ExtractFiles@1
+      displayName: 'Extract Files'
+      inputs:
+        archiveFilePatterns: '*hugo-site.zip'
+        destinationFolder: '$(System.DefaultWorkingDirectory)\deploy'
+    
+    - task: AzureFileCopy@3
+      displayName: 'AzureBlob File Copy'
+      inputs:
+        SourcePath: '$(System.DefaultWorkingDirectory)\deploy\public'
+        azureSubscription: 'Pay-As-You-Go (8c6ccaa9-9f43-4f74-a91e-12a9f922d72c)'
+        Destination: AzureBlob
+        storage: mattallfordblog
+        ContainerName: '$web'
