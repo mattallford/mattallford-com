@@ -63,12 +63,12 @@ stages:
       displayName: 'Extract Files'
       inputs:
         archiveFilePatterns: '*hugo-site.zip'
-        destinationFolder: '$(System.DefaultWorkingDirectory)\deploy'
+        destinationFolder: '$(System.DefaultWorkingDirectory)/deploy'
 
     - task: AzureFileCopy@4
       displayName: 'AzureBlob File Copy'
       inputs:
-        SourcePath: '$(System.DefaultWorkingDirectory)\deploy\public'
+        SourcePath: '$(System.DefaultWorkingDirectory)/deploy/public'
         azureSubscription: 'AzureSC'
         Destination: AzureBlob
         storage: mattallfordblog
