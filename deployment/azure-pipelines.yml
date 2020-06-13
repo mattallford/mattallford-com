@@ -62,7 +62,7 @@ stages:
     - task: ExtractFiles@1
       displayName: 'Extract Files'
       inputs:
-        archiveFilePatterns: '**hugo-site.zip'
+        archiveFilePatterns: '$(Pipeline.Workspace)\*hugo-site.zip'
         destinationFolder: '$(System.DefaultWorkingDirectory)\deploy'
 
     - task: AzureFileCopy@4
