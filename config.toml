@@ -10,8 +10,8 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
-disqusShortname = "thecloudbytes"
-googleAnalytics = "UA-163892167-1"
+disqusShortname = "mattallford"
+googleAnalytics = "UA-163892167-2"
 
 [Params]
   homeTitle = " " # Set a different text for the header on the home page
@@ -59,7 +59,7 @@ googleAnalytics = "UA-163892167-1"
 #  stackoverflow = "users/XXXXXXX/username"
 #  snapchat = "username"
 #  instagram = "username"
-  youtube = "user/username" # or channel/channelname
+  youtube = "channel/UCWPrPzVnLa9ma7axTJgUX0Q"
 #  soundcloud = "username"
 #  spotify = "username"
 #  bandcamp = "username"
