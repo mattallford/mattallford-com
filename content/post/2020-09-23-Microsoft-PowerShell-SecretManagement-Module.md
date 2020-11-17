@@ -7,7 +7,6 @@ url: /2020/Microsoft-PowerShell-SecretManagement-Module/
 categories:
 - '2020'
 - September
-
 tags:
 - DevOps
 - PowerShell

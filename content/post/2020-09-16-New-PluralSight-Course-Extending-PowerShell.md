@@ -1,6 +1,6 @@
 ---
 author: Matt Allford
-title: "New PluralSight Course: Extending PowerShell"
+title: "New Pluralsight Course: Extending PowerShell"
 date: 2020-09-16
 draft: false
 url: /2020/New-Pluralsight-Course-Extending-PowerShell/
