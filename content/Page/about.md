@@ -1,10 +1,11 @@
-+++
-title = "About"
-date = "2020-04-05"
-aliases = ["about-us","about","contact"]
-author = "Matthew Allford"
-socialShare = false
-+++
+---
+title: "About"
+date: 2020-04-05
+aliases: ["about-us","about","contact"]
+author: "Matthew Allford"
+socialShare: false
+url: /about/
+---
 
 Hi there, and welcome! My name is Matt Allford. 
 

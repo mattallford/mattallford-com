@@ -75,13 +75,13 @@ googleAnalytics = "UA-163892167-2"
 #  slack = "username"
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
+    name = "Content Portfolio"
+    url = "/content-portfolio/"
+    weight = 2
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
+    url = "/about/"
     weight = 3
 
 #[[menu.main]]
@@ -89,8 +89,3 @@ googleAnalytics = "UA-163892167-2"
 #    name = "Vembu"
 #    url = "sponsors/vembu"
 #    weight = 1
-
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
