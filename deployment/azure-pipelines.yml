@@ -7,7 +7,7 @@ trigger:
 - master
 
 variables:
-  hugo.version: '0.69.2'
+  hugo.version: '0.79.1'
 
 stages:
 
