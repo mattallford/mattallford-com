@@ -16,12 +16,13 @@ I'm a Pluralsight author, and the easiest place to find my Pluralsight courses a
 
 https://app.pluralsight.com/profile/author/matt-allford
 
-### CloudSkills
-CloudSkills is an online learning community with a focus on creating read-world cloud training, with a focus on cloud & devops. The quality of the content available at CloudSkills is phenominal, but they also have one of the best community cultures I've had the privilege of being a part of.
+### CloudSkills / INE
+CloudSkills is an online learning community with a focus on creating read-world cloud training, with a focus on cloud & devops. The quality of the content available at CloudSkills is phenominal, but they also have one of the best community cultures I've had the privilege of being a part of. CloudSkills were aquired by INE in January 2022.
 
-The course I have created at CloudSkills are:
+The course I have created at CloudSkills/INE are:
 
 [Azure Functions for DevOps Engineers](https://cloudskills.io/courses/azure-functions)
+[Azure Template Specs: Infrastructure as Code](https://ine.com/learning/courses/azure-template-specs-infrastructure-as-code)
 
 # YouTube
 
@@ -43,3 +44,5 @@ I'm still working on getting in to a good habit with storing my code in source c
 If any of the sessions I present are recorded and are publically available, I'll link them here!
 
 {{< youtube aQqHSEIUHl8 >}}
+
+{{< youtube R7FBJFW8Y_8 >}}
