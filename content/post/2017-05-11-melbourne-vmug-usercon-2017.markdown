@@ -38,7 +38,3 @@ Last up was the big one. The closing keynote presented by William Lam and Alan R
 Towards the end of the session, but not before being served a well earned beer on stage by Duncan (see below), vCenter booted up on the ESXi host and the guys took us through some of the REST features that have been included in the 6.5 version of the product.
 
 I've waffled on a bit, but in summary a fantastic event. Well organised, awesome lineup (thanks to everyone for travelling from afar), great sponsors to make it happen and it was great to catch up with mates and meet a few new people. I was also lucky enough to clean up with a few prizes as well, and finished off the day with a couple of beers down on the water front. I can't wait to do it all again next year.
-
-{{< tweet 844792238978719745 >}}
-
-
