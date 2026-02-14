@@ -71,10 +71,10 @@ jobs:
           packages: |
             ${{ steps.package_site.outputs.package_file }}
 
-      # - name: Push build information to Octopus Deploy 🐙
-      #   id: push_build_information_to_octopus_deploy
-      #   uses: OctopusDeploy/push-build-information-action@v4
-      #   with:
-      #     packages: |
-      #       mattallford-com-blog
-      #     version: ${{ steps.calculate_version.outputs.semVer }}
+      - name: Push build information to Octopus Deploy 🐙
+        id: push_build_information_to_octopus_deploy
+        uses: OctopusDeploy/push-build-information-action@v4
+        with:
+          packages: |
+            mattallford-com-blog
+          version: ${{ steps.calculate_version.outputs.semVer }}
