@@ -12,7 +12,7 @@ env:
   HUGO_VERSION: "0.79.1"
   # OCTOPUS_URL: ${{ secrets.OCTOPUS_URL }}
   # OCTOPUS_API_KEY: ${{ secrets.OCTOPUS_API_KEY }}
-  # OCTOPUS_SPACE: "Default"
+  OCTOPUS_SPACE: "Default"
 
 jobs:
   build:
