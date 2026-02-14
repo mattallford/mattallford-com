@@ -14,7 +14,7 @@ step "upload-site-to-azure-blob" {
                 $env:AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"
                 
                 # Get package path
-                $packagePath = $OctopusParameters["Octopus.Action.Package[BlogMicrosite].ExtractedPath"]
+                $packagePath = $OctopusParameters["Octopus.Action.Package[mattallford-com-blog].ExtractedPath"]
                 Write-Host "Package path: $packagePath"
                 
                 # Set storage account details (use Octopus variables for these)
