@@ -1,0 +1,13 @@
+variable "Azure.Account" {
+    type = "AzureAccount"
+
+    value "azure-payg-contributor" {
+        environment = ["production"]
+    }
+}
+
+variable "Azure.StorageAccount.Name" {
+    value "mattallfordblog" {
+        environment = ["production"]
+    }
+}
