@@ -10,6 +10,9 @@ on:
 
 env:
   HUGO_VERSION: "0.79.1"
+  OCTOPUS_URL: ${{ secrets.OCTOPUS_URL }}
+  OCTOPUS_API_KEY: ${{ secrets.OCTOPUS_API_KEY }}
+  OCTOPUS_SPACE: "Default"
 
 jobs:
   build:
@@ -26,9 +29,12 @@ jobs:
       - name: Build site
         run: hugo --minify
 
+      - name: Package site
+        run: cd public && zip -r ../mattallford-com-blog.zip .
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: hugo-site
-          path: public/
+          name: mattallford-com-blog
+          path: mattallford-com-blog.zip
           if-no-files-found: error
