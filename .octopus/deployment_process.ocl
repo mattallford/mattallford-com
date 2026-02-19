@@ -69,7 +69,7 @@ step "upload-site-to-azure-blob" {
                     # Get AZCopy
                     # https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-install-linux-package?tabs=apt
                     RUN curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /usr/share/keyrings/microsoft-archive-keyring.gpg && \
-                        echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/microsoft-debian-bookworm-prod bookworm main" | tee /etc/apt/sources.list.d/microsoft.list && \
+                        echo "deb [signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/microsoft-debian-bookworm-prod bookworm main" | tee /etc/apt/sources.list.d/microsoft.list && \
                         apt update && apt install -y azcopy
                     EOT
         }
