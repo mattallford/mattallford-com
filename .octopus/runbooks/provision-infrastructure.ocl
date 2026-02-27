@@ -77,7 +77,7 @@ process {
                       error_404_document = "404.html"
                     }
                     EOT
-                Octopus.Action.Terraform.TemplateParameters = "{\"storage_account_name\":null,\"resource_group_name\":null,\"location\":\"westus\"}"
+                Octopus.Action.Terraform.TemplateParameters = "{\"storage_account_name\":\"#{Project.StorageAccountName}\",\"resource_group_name\":\"#{Project.ResourceGroupName}\",\"location\":\"#{Project.ResourceLocation}\"}"
             }
             worker_pool = "hosted-ubuntu"
         }
