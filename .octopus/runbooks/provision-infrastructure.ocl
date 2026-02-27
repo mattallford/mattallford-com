@@ -84,7 +84,7 @@ process {
 
             container {
                 feed = "dockerhub"
-                image = "octopusdeploylabs/terraform-workertools"
+                image = "octopuslabs/terraform-workertools"
             }
         }
     }
