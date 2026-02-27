@@ -78,8 +78,14 @@ process {
                     }
                     EOT
                 Octopus.Action.Terraform.TemplateParameters = "{\"storage_account_name\":\"#{Project.StorageAccountName}\",\"resource_group_name\":\"#{Project.ResourceGroupName}\",\"location\":\"#{Project.ResourceLocation}\"}"
+                OctopusUseBundledTooling = "False"
             }
             worker_pool = "hosted-ubuntu"
+
+            container {
+                feed = "dockerhub"
+                image = "octopusdeploylabs/terraform-workertools"
+            }
         }
     }
 }
