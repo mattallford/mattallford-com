@@ -11,3 +11,19 @@ variable "Azure.Account" {
         environment = ["production"]
     }
 }
+
+variable "Project.ResourceLocation" {
+    value "Australia East" {}
+}
+
+variable "Project.ResourceGroupName" {
+    value "rg-blog-test" {
+        environment = ["production"]
+    }
+}
+
+variable "Project.StorageAccountName" {
+    value "stmablogprod001" {
+        environment = ["production"]
+    }
+}
