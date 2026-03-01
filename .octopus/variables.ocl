@@ -27,3 +27,25 @@ variable "Project.StorageAccountName" {
         environment = ["production"]
     }
 }
+
+variable "TerraformBackend.StateKey" {
+    value "microsites/prod/main/terraform.tfstate" {
+        environment = ["production"]
+    }
+
+    value "microsites/ephemeral/<pr#>/terraform.tfstate" {
+        environment = ["dev"]
+    }
+}
+
+variable "TerraformBackend.ContainerName" {
+    value {}
+}
+
+variable "TerraformBackend.StorageAccountName" {
+    value {}
+}
+
+variable "TerraformBackend.ResourceGroupName" {
+    value "Project.ResourceGroupName" {}
+}
