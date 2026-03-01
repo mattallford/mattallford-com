@@ -16,12 +16,6 @@ variable "Project.ResourceGroupName" {
     }
 }
 
-variable "Project.StorageAccountName" {
-    value "stmablogprod001" {
-        environment = ["production"]
-    }
-}
-
 variable "TerraformBackend.StateKey" {
     value "microsites/prod/main/terraform.tfstate" {
         environment = ["production"]
@@ -44,4 +38,10 @@ variable "TerraformBackend.ResourceGroupName" {
 
 variable "TerraformBackend.StorageAccountName" {
     value "stmablogtfstate" {}
+}
+
+variable "Project.StorageAccountName" {
+    value "stmablogprod01" {
+        environment = ["production"]
+    }
 }
