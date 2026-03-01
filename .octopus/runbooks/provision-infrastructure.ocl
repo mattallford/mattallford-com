@@ -16,6 +16,7 @@ process {
 
         action {
             action_type = "Octopus.TerraformPlan"
+            is_disabled = true
             properties = {
                 Octopus.Action.AzureAccount.Variable = "Azure.Account"
                 Octopus.Action.GoogleCloud.ImpersonateServiceAccount = "False"
@@ -99,6 +100,7 @@ process {
                 Octopus.Action.GoogleCloud.ImpersonateServiceAccount = "False"
                 Octopus.Action.GoogleCloud.UseVMServiceAccount = "True"
                 Octopus.Action.Script.ScriptSource = "Inline"
+                Octopus.Action.Terraform.AdditionalInitParams = "-backend-config=backend.tfbackend"
                 Octopus.Action.Terraform.AllowPluginDownloads = "True"
                 Octopus.Action.Terraform.AzureAccount = "True"
                 Octopus.Action.Terraform.GoogleCloudAccount = "False"
