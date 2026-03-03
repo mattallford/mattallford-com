@@ -101,7 +101,6 @@ process {
                 Octopus.Action.GoogleCloud.ImpersonateServiceAccount = "False"
                 Octopus.Action.GoogleCloud.UseVMServiceAccount = "True"
                 Octopus.Action.Script.ScriptSource = "GitRepository"
-                Octopus.Action.Terraform.AdditionalInitParams = "-backend-config=backend.tfbackend"
                 Octopus.Action.Terraform.AllowPluginDownloads = "True"
                 Octopus.Action.Terraform.AzureAccount = "True"
                 Octopus.Action.Terraform.FileSubstitution = "backend.tfbackend"
