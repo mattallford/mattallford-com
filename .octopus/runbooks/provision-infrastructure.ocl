@@ -103,7 +103,6 @@ process {
                 Octopus.Action.Script.ScriptSource = "GitRepository"
                 Octopus.Action.Terraform.AllowPluginDownloads = "True"
                 Octopus.Action.Terraform.AzureAccount = "True"
-                Octopus.Action.Terraform.FileSubstitution = "backend.tfbackend"
                 Octopus.Action.Terraform.GoogleCloudAccount = "False"
                 Octopus.Action.Terraform.ManagedAccount = "None"
                 Octopus.Action.Terraform.PlanJsonOutput = "False"
