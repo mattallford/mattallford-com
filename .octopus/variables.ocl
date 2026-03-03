@@ -45,3 +45,7 @@ variable "Project.StorageAccountName" {
         environment = ["production"]
     }
 }
+
+variable "Project.SubscriptionId" {
+    value "8c6ccaa9-9f43-4f74-a91e-12a9f922d72c" {}
+}
