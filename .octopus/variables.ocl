@@ -10,12 +10,6 @@ variable "Project.ResourceLocation" {
     value "Australia East" {}
 }
 
-variable "Project.ResourceGroupName" {
-    value "rg-blog-test" {
-        environment = ["production"]
-    }
-}
-
 variable "TerraformBackend.StateKey" {
     value "microsites/prod/main/terraform.tfstate" {
         environment = ["production"]
@@ -40,12 +34,23 @@ variable "TerraformBackend.StorageAccountName" {
     value "stmablogtfstate" {}
 }
 
-variable "Project.StorageAccountName" {
-    value "stmablogprod01" {
+variable "Project.SubscriptionId" {
+    value "8c6ccaa9-9f43-4f74-a91e-12a9f922d72c" {}
+}
+
+variable "Project.ResourceGroupName" {
+    value "mattallford-com-blog" {
         environment = ["production"]
     }
 }
 
-variable "Project.SubscriptionId" {
-    value "8c6ccaa9-9f43-4f74-a91e-12a9f922d72c" {}
+variable "Project.StorageAccountName" {
+    value "mattallfordblog" {
+        environment = ["production"]
+    }
+
+    value "mattallfordblogtest" {
+        description = ""
+        environment = ["test"]
+    }
 }
