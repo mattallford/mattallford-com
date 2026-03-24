@@ -18,7 +18,7 @@ step "upload-site-to-azure-blob" {
                 Write-Host "Package path: $packagePath"
                 
                 # Set storage account details (use Octopus variables for these)
-                $storageAccountName = $OctopusParameters["Azure.StorageAccount.Name"]
+                $storageAccountName = $OctopusParameters["Project.StorageAccountName"]
                 $containerName = "`$web"  # Escaped $ for PowerShell
                 $storageUrl = "https://$storageAccountName.blob.core.windows.net/$containerName"
                 
