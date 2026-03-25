@@ -45,11 +45,6 @@ step "upload-site-to-azure-blob" {
         }
         worker_pool = "hosted-ubuntu"
 
-        container {
-            feed = "dockerhub"
-            image = "octopuslabs/azure-workertools:2.83.0"
-        }
-
         packages "mattallford-com-blog" {
             acquisition_location = "Server"
             feed = "octopus-server-built-in"
