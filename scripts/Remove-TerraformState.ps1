@@ -12,14 +12,11 @@ param(
     [string]$StateContainerName,
 
     [Parameter(Mandatory = $true)]
-    [string]$MicrositePrefix,
-
-    [Parameter(Mandatory = $true)]
     [string]$EnvironmentName
 )
 
 $EnvironmentName = $EnvironmentName.ToLower()
-$blobPrefix = "microsites/$MicrositePrefix/$EnvironmentName/"
+$blobPrefix = "mattallfordblog/$EnvironmentName/"
 
 # Step 1: Confirm the microsite storage account has been destroyed
 Write-Host "Checking that microsite storage account '$MicrositeStorageAccountName' has been destroyed..."
