@@ -16,7 +16,7 @@ process {
         action {
             action_type = "Octopus.TerraformDestroy"
             properties = {
-                Octopus.Action.AzureAccount.Variable = "Azure.Account"
+                Octopus.Action.AzureAccount.Variable = "Microsite.Azure.Account"
                 Octopus.Action.GitRepository.Source = "Project"
                 Octopus.Action.GoogleCloud.ImpersonateServiceAccount = "False"
                 Octopus.Action.GoogleCloud.UseVMServiceAccount = "True"
@@ -45,7 +45,7 @@ process {
         action {
             action_type = "Octopus.AzurePowerShell"
             properties = {
-                Octopus.Action.Azure.AccountId = "#{Azure.Account}"
+                Octopus.Action.Azure.AccountId = "#{Microsite.Azure.Account}"
                 Octopus.Action.GitRepository.Source = "Project"
                 Octopus.Action.Script.ScriptFileName = "scripts/Remove-TerraformState.ps1"
                 Octopus.Action.Script.ScriptParameters = "-MicrositeStorageAccountName #{Microsite.Azure.StorageAccountName} -StateStorageAccountName #{Terraform.Backend.StorageAccountName} -StateSubscriptionId #{Terraform.Backend.SubscriptionId} -StateContainerName #{Terraform.Backend.ContainerName} -MicrositePrefix #{micrositeprefix} -EnvironmentName #{Octopus.Environment.Name | ToLower}"
