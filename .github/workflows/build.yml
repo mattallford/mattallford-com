@@ -78,3 +78,16 @@ jobs:
           packages: |
             mattallford-com-blog
           version: ${{ steps.calculate_version.outputs.semVer }}
+
+      - name: Create a release in Octopus Deploy 🐙
+        if: ${{ github.event_name == 'pull_request' }}
+        id: "create_release"
+        uses: OctopusDeploy/create-release-action@v4.1.1
+        with:
+          project: "mattallford-com"
+          package_version: "${{ steps.calculate_version.outputs.semVer }}-pullrequest"
+          git_ref: ${{ github.head_ref || github.ref_name }}
+          git_commit: ${{ github.event.after || github.event.pull_request.head.sha }}
+          channel: "Ephemeral Environments"
+          custom_fields: |
+            PullRequestNumber:${{ github.event.pull_request.number }}
