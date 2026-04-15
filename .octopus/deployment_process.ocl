@@ -51,3 +51,46 @@ step "upload-site-to-azure-blob" {
         }
     }
 }
+
+step "comment-on-pr-with-environment-url" {
+    name = "Comment on PR with Environment URL"
+
+    action {
+        action_type = "Octopus.Script"
+        environments = ["ephemeral-environments"]
+        properties = {
+            Octopus.Action.Script.ScriptBody = <<-EOT
+                export GH_TOKEN=$(get_octopusvariable "GitHub.Token")
+                
+                pull_request_number=$(get_octopusvariable "Octopus.Release.CustomFields[pull-request-number]")
+                
+                environment_name=$(get_octopusvariable "Octopus.Environment.Name")
+                ephemeral_url="#{Octopus.Action[Get Static Site URL].Output.StaticWebsiteUrl}"
+                
+                echo "Adding comment to pull request"
+                
+                cat <<EOF > comment.txt
+                
+                Pull request environment available at $ephemeral_url/blog
+                
+                To view a new post with a publish date in the future, you can use the direct URL in the form \`$ephemeral_url/blog/{your-slug}\` where \`{your-slug}\` is replaced with the folder containing your post.
+                
+                You can view the [ephemeral environment status in Octopus](https://mattallford.octopus.app/app#/Spaces-1/projects/mattallford-com/ephemeral-environments?page=1&environmentName=$environment_name&status=all). 
+                
+                This environment will be automatically deprovisioned.
+                EOF
+                
+                gh pr comment $pull_request_number --repo OctopusDeploy/blog-new --edit-last --create-if-none --body-file comment.txt
+                EOT
+            Octopus.Action.Script.ScriptSource = "Inline"
+            Octopus.Action.Script.Syntax = "Bash"
+            OctopusUseBundledTooling = "False"
+        }
+        worker_pool = "hosted-ubuntu"
+
+        container {
+            feed = "dockerhub"
+            image = "octopuslabs/github-workertools:latest"
+        }
+    }
+}
