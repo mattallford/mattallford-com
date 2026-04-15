@@ -1,5 +1,0 @@
-variable "Azure.Account" {
-    type = "AzureAccount"
-
-    value "mattallford-blog-production" {}
-}
