@@ -17,7 +17,7 @@ process {
         action {
             action_type = "Octopus.TerraformApply"
             properties = {
-                Octopus.Action.AzureAccount.Variable = "Azure.Account"
+                Octopus.Action.AzureAccount.Variable = "Microsite.Azure.Account"
                 Octopus.Action.GitRepository.Source = "Project"
                 Octopus.Action.GoogleCloud.ImpersonateServiceAccount = "False"
                 Octopus.Action.GoogleCloud.UseVMServiceAccount = "True"
