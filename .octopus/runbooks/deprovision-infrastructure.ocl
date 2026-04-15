@@ -48,7 +48,7 @@ process {
                 Octopus.Action.Azure.AccountId = "#{Microsite.Azure.Account}"
                 Octopus.Action.GitRepository.Source = "Project"
                 Octopus.Action.Script.ScriptFileName = "scripts/Remove-TerraformState.ps1"
-                Octopus.Action.Script.ScriptParameters = "-MicrositeStorageAccountName #{Microsite.Azure.StorageAccountName} -StateStorageAccountName #{Terraform.Backend.StorageAccountName} -StateSubscriptionId #{Terraform.Backend.SubscriptionId} -StateContainerName #{Terraform.Backend.ContainerName} -MicrositePrefix #{micrositeprefix} -EnvironmentName #{Octopus.Environment.Name | ToLower}"
+                Octopus.Action.Script.ScriptParameters = "-MicrositeStorageAccountName #{Microsite.Azure.StorageAccountName} -StateStorageAccountName #{Terraform.Backend.StorageAccountName} -StateSubscriptionId #{Terraform.Backend.SubscriptionId} -StateContainerName #{Terraform.Backend.ContainerName} -EnvironmentName #{Octopus.Environment.Name | ToLower}"
                 Octopus.Action.Script.ScriptSource = "GitRepository"
                 OctopusUseBundledTooling = "False"
             }
