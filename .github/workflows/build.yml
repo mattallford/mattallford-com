@@ -47,7 +47,12 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
 
       - name: Build site
-        run: hugo --minify
+        run: |
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+            hugo --minify --baseURL "/"
+          else
+            hugo --minify
+          fi
 
       - name: Package site
         id: package_site
