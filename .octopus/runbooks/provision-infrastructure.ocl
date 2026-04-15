@@ -18,7 +18,7 @@ process {
             action_type = "Octopus.TerraformApply"
             properties = {
                 Octopus.Action.AzureAccount.Variable = "Azure.Account"
-                Octopus.Action.GitRepository.Source = "External"
+                Octopus.Action.GitRepository.Source = "Project"
                 Octopus.Action.GoogleCloud.ImpersonateServiceAccount = "False"
                 Octopus.Action.GoogleCloud.UseVMServiceAccount = "True"
                 Octopus.Action.Script.ScriptSource = "GitRepository"
@@ -36,12 +36,6 @@ process {
             container {
                 feed = "dockerhub"
                 image = "octopuslabs/terraform-workertools"
-            }
-
-            git_dependencies {
-                default_branch = "main"
-                git_credential_type = "Anonymous"
-                repository_uri = "https://github.com/mattallford/mattallford-com"
             }
         }
     }
