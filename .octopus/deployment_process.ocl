@@ -1,46 +1,36 @@
+step "get-static-site-url" {
+    name = "Get Static Site URL"
+
+    action {
+        action_type = "Octopus.AzurePowerShell"
+        properties = {
+            Octopus.Action.Azure.AccountId = "#{Microsite.Azure.Account}"
+            Octopus.Action.GitRepository.Source = "Project"
+            Octopus.Action.Script.ScriptFileName = "scripts/Get-StaticSiteUrl.ps1"
+            Octopus.Action.Script.ScriptParameters = "-StorageAccountName #{Microsite.Azure.StorageAccountName}"
+            Octopus.Action.Script.ScriptSource = "GitRepository"
+            OctopusUseBundledTooling = "False"
+        }
+        worker_pool = "hosted-ubuntu"
+
+        container {
+            feed = "dockerhub"
+            image = "octopuslabs/azure-workertools:2.83.0"
+        }
+    }
+}
+
 step "upload-site-to-azure-blob" {
     name = "Upload site to Azure Blob"
 
     action {
         action_type = "Octopus.AzurePowerShell"
         properties = {
-            Octopus.Action.Azure.AccountId = "#{Azure.Account}"
-            Octopus.Action.Script.ScriptBody = <<-EOT
-                # Verify Azure authentication
-                $accountInfo = az account show --output json | ConvertFrom-Json
-                Write-Host "Authenticated to Azure as: $($accountInfo.user.name)"
-                
-                # Configure AZCopy to use Azure CLI authentication
-                $env:AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"
-                
-                # Get package path
-                $packagePath = $OctopusParameters["Octopus.Action.Package[mattallford-com-blog].ExtractedPath"]
-                Write-Host "Package path: $packagePath"
-                
-                # Set storage account details (use Octopus variables for these)
-                $storageAccountName = $OctopusParameters["Project.StorageAccountName"]
-                $containerName = "`$web"  # Escaped $ for PowerShell
-                $storageUrl = "https://$storageAccountName.blob.core.windows.net/$containerName"
-                
-                Write-Host "`nSyncing to: $storageUrl"
-                
-                # Run azcopy sync with Azure authentication
-                # AZCopy will automatically use the Azure CLI login context
-                azcopy sync $packagePath $storageUrl `
-                    --recursive `
-                    --delete-destination=true `
-                    --compare-hash=MD5 `
-                    --put-md5
-                
-                if ($LASTEXITCODE -eq 0) {
-                    Write-Host "`n✓ Sync completed successfully"
-                } else {
-                    Write-Error "AZCopy sync failed with exit code: $LASTEXITCODE"
-                    exit 1
-                }
-                EOT
-            Octopus.Action.Script.ScriptSource = "Inline"
-            Octopus.Action.Script.Syntax = "PowerShell"
+            Octopus.Action.Azure.AccountId = "#{Microsite.Azure.Account}"
+            Octopus.Action.GitRepository.Source = "Project"
+            Octopus.Action.Script.ScriptFileName = "scripts/Deploy-Microsite.ps1"
+            Octopus.Action.Script.ScriptParameters = "-StorageAccountName #{Microsite.Azure.StorageAccountName} -PackagePath #{Octopus.Action.Package[mattallford-com-blog].ExtractedPath}"
+            Octopus.Action.Script.ScriptSource = "GitRepository"
             OctopusUseBundledTooling = "False"
         }
         worker_pool = "hosted-ubuntu"
