@@ -1,52 +1,5 @@
-variable "Project.ResourceLocation" {
-    value "Australia East" {}
-}
-
-variable "TerraformBackend.StateKey" {
-    value "microsites/prod/main/terraform.tfstate" {
-        environment = ["production"]
-    }
-
-    value "microsites/ephemeral/<pr#>/terraform.tfstate" {
-        environment = ["dev"]
-    }
-}
-
-variable "TerraformBackend.ContainerName" {
-    value "terraform-state-prod" {
-        environment = ["production"]
-    }
-}
-
-variable "TerraformBackend.ResourceGroupName" {
-    value "#{Project.ResourceGroupName}" {}
-}
-
-variable "TerraformBackend.StorageAccountName" {
-    value "stmablogtfstate" {}
-}
-
-variable "Project.SubscriptionId" {
-    value "8c6ccaa9-9f43-4f74-a91e-12a9f922d72c" {}
-}
-
-variable "Project.StorageAccountName" {
-    value "mattallfordblog" {
-        environment = ["production"]
-    }
-
-    value "mattallfordblogtest" {
-        description = ""
-        environment = ["test"]
-    }
-}
-
 variable "Azure.Account" {
     type = "AzureAccount"
 
     value "mattallford-blog-production" {}
-}
-
-variable "Project.ResourceGroupName" {
-    value "mattallford-com-blog" {}
 }
