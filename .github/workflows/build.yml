@@ -85,7 +85,7 @@ jobs:
         uses: OctopusDeploy/create-release-action@v4.1.1
         with:
           project: "mattallford-com"
-          package_version: "${{ steps.calculate_version.outputs.semVer }}-pullrequest"
+          package_version: "${{ steps.calculate_version.outputs.semVer }}"
           git_ref: ${{ github.head_ref || github.ref_name }}
           git_commit: ${{ github.event.after || github.event.pull_request.head.sha }}
           channel: "Ephemeral Environments"
