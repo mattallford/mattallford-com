@@ -10,19 +10,53 @@ run_retention_policy {
 }
 
 process {
-    step "hello-world" {
-        name = "Hello, World!"
+    step "destroy-terraform-resources" {
+        name = "Destroy Terraform resources"
 
         action {
-            action_type = "Octopus.Script"
+            action_type = "Octopus.TerraformDestroy"
             properties = {
-                Octopus.Action.RunOnServer = "true"
-                Octopus.Action.Script.ScriptBody = <<-EOT
-                    Write-Host 'Hello, World!
-                    Replace this step with your own runbook steps.'
-                    EOT
-                Octopus.Action.Script.ScriptSource = "Inline"
-                Octopus.Action.Script.Syntax = "PowerShell"
+                Octopus.Action.AzureAccount.Variable = "Azure.Account"
+                Octopus.Action.GitRepository.Source = "Project"
+                Octopus.Action.GoogleCloud.ImpersonateServiceAccount = "False"
+                Octopus.Action.GoogleCloud.UseVMServiceAccount = "True"
+                Octopus.Action.Script.ScriptSource = "GitRepository"
+                Octopus.Action.Terraform.AllowPluginDownloads = "True"
+                Octopus.Action.Terraform.AzureAccount = "True"
+                Octopus.Action.Terraform.GoogleCloudAccount = "False"
+                Octopus.Action.Terraform.ManagedAccount = "None"
+                Octopus.Action.Terraform.PlanJsonOutput = "False"
+                Octopus.Action.Terraform.RunAutomaticFileSubstitution = "True"
+                Octopus.Action.Terraform.TemplateDirectory = "terraform"
+                OctopusUseBundledTooling = "False"
+            }
+            worker_pool = "hosted-ubuntu"
+
+            container {
+                feed = "dockerhub"
+                image = "octopuslabs/terraform-workertools:latest"
+            }
+        }
+    }
+
+    step "remove-terraform-state-file" {
+        name = "Remove Terraform state file"
+
+        action {
+            action_type = "Octopus.AzurePowerShell"
+            properties = {
+                Octopus.Action.Azure.AccountId = "#{Azure.Account}"
+                Octopus.Action.GitRepository.Source = "Project"
+                Octopus.Action.Script.ScriptFileName = "scripts/Remove-TerraformState.ps1"
+                Octopus.Action.Script.ScriptParameters = "-MicrositeStorageAccountName #{Microsite.Azure.StorageAccountName} -StateStorageAccountName #{Terraform.Backend.StorageAccountName} -StateSubscriptionId #{Terraform.Backend.SubscriptionId} -StateContainerName #{Terraform.Backend.ContainerName} -MicrositePrefix #{micrositeprefix} -EnvironmentName #{Octopus.Environment.Name | ToLower}"
+                Octopus.Action.Script.ScriptSource = "GitRepository"
+                OctopusUseBundledTooling = "False"
+            }
+            worker_pool = "hosted-ubuntu"
+
+            container {
+                feed = "dockerhub"
+                image = "octopuslabs/azure-workertools:2.83.0"
             }
         }
     }
