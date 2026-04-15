@@ -62,7 +62,7 @@ step "comment-on-pr-with-environment-url" {
             Octopus.Action.Script.ScriptBody = <<-EOT
                 export GH_TOKEN=$(get_octopusvariable "GitHub.Token")
                 
-                pull_request_number=$(get_octopusvariable "Octopus.Release.CustomFields[pull-request-number]")
+                pull_request_number=$(get_octopusvariable "Octopus.Release.CustomFields[PullRequestNumber]")
                 
                 environment_name=$(get_octopusvariable "Octopus.Environment.Name")
                 ephemeral_url="#{Octopus.Action[Get Static Site URL].Output.StaticWebsiteUrl}"
