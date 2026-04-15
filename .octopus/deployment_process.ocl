@@ -71,9 +71,7 @@ step "comment-on-pr-with-environment-url" {
                 
                 cat <<EOF > comment.txt
                 
-                Pull request environment available at $ephemeral_url/blog
-                
-                To view a new post with a publish date in the future, you can use the direct URL in the form \`$ephemeral_url/blog/{your-slug}\` where \`{your-slug}\` is replaced with the folder containing your post.
+                Pull request environment available at $ephemeral_url
                 
                 You can view the [ephemeral environment status in Octopus](https://mattallford.octopus.app/app#/Spaces-1/projects/mattallford-com/ephemeral-environments?page=1&environmentName=$environment_name&status=all). 
                 
