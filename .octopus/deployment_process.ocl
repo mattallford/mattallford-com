@@ -80,7 +80,7 @@ step "comment-on-pr-with-environment-url" {
                 This environment will be automatically deprovisioned.
                 EOF
                 
-                gh pr comment $pull_request_number --repo OctopusDeploy/blog-new --edit-last --create-if-none --body-file comment.txt
+                gh pr comment $pull_request_number --repo mattallford/mattallford-com --edit-last --create-if-none --body-file comment.txt
                 EOT
             Octopus.Action.Script.ScriptSource = "Inline"
             Octopus.Action.Script.Syntax = "Bash"
