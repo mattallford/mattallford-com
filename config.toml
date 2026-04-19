@@ -36,7 +36,7 @@ googleAnalytics = "UA-163892167-2"
 #  src = "img/triangle.jpg"
 #  desc = "Triangle"
  [[Params.bigimg]]
-  src = "img/headerbackground-copy.png"
+  src = "img/ndc-sydney-2026-banner.svg"
 #  desc = "Sphere"
 #  # position: see values of CSS background-position.
 #  position = "center top"
