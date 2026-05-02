@@ -14,7 +14,8 @@ tags:
 - manager
 - SSL
 - update
-- VUMaliases:
+- VUM
+aliases:
 - /2016/vmware-update-manager-sysimage-fault-sslcertificateerror/
 
 ---

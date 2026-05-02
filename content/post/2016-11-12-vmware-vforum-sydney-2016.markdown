@@ -16,7 +16,8 @@ tags:
 - vForum
 - vforumau
 - vmdownunderground
-- VMwarealiases:
+- VMware
+aliases:
 - /2016/vmware-vforum-sydney-2016/
 
 ---

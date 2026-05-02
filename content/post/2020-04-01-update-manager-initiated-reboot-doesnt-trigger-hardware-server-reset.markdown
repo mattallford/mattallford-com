@@ -15,7 +15,8 @@ tags:
 - hpe
 - quickboot
 - Update Manager
-- VUMaliases:
+- VUM
+aliases:
 - /2020/update-manager-initiated-reboot-doesnt-trigger-hardware-server-reset/
 
 ---

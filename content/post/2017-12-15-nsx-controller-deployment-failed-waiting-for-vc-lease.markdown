@@ -11,7 +11,8 @@ categories:
 tags:
 - controller
 - NSX
-- VMwarealiases:
+- VMware
+aliases:
 - /2017/nsx-controller-deployment-failed-waiting-for-vc-lease/
 
 ---

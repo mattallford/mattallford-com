@@ -12,7 +12,8 @@ tags:
 - Nimble
 - reclaim
 - unmap
-- VAAIaliases:
+- VAAI
+aliases:
 - /2016/esxi-and-nimble-storage-unmap-scsi-blocks/
 
 ---

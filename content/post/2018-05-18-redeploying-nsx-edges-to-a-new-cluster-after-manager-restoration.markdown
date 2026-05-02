@@ -11,7 +11,8 @@ tags:
 - NSX
 - NSX Edge
 - Restore
-- VMwarealiases:
+- VMware
+aliases:
 - /2018/redeploying-nsx-edges-to-a-new-cluster-after-manager-restoration/
 
 ---

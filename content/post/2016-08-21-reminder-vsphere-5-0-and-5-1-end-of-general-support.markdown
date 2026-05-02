@@ -14,7 +14,8 @@ tags:
 - esxi
 - upgrade
 - vcenter
-- vspherealiases:
+- vsphere
+aliases:
 - /2016/reminder-vsphere-5-0-and-5-1-end-of-general-support/
 
 ---

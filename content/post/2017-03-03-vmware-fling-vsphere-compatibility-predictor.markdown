@@ -13,7 +13,8 @@ tags:
 - fling
 - upgrade
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2017/vmware-fling-vsphere-compatibility-predictor/
 
 ---

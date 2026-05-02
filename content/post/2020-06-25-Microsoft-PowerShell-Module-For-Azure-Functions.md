@@ -13,7 +13,8 @@ tags:
 - Azure
 - Functions
 - Serverless
-- PowerShellaliases:
+- PowerShell
+aliases:
 - /2020/microsoft-powershell-module-for-azure-functions/
 
 ---

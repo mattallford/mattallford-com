@@ -14,7 +14,8 @@ tags:
 - NSX
 - NSX-T
 - SDN
-- VMwarealiases:
+- VMware
+aliases:
 - /2019/product-announcement-nsx-t-2-4/
 
 ---

@@ -12,7 +12,8 @@ tags:
 - backup
 - data protection
 - recovery
-- Vembualiases:
+- Vembu
+aliases:
 - /2018/vembu-webinar-why-you-need-multiple-recovery-options/
 
 ---

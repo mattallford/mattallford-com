@@ -12,7 +12,8 @@ tags:
 - sessions
 - streaming
 - VMware
-- vmworldaliases:
+- vmworld
+aliases:
 - /2016/vmworld-2016-us-breakout-session-recordings-available/
 
 ---

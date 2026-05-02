@@ -15,7 +15,8 @@ tags:
 - time
 - vcenter
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2016/march/vsphere-new-psc-deployment-could-not-parse-saml-token-for-authentication/
 
 ---

@@ -12,7 +12,8 @@ tags:
 - tech field day
 - tfd
 - VMware
-- vmworldaliases:
+- vmworld
+aliases:
 - /2018/vmworld-2018-is-around-the-corner/
 
 ---

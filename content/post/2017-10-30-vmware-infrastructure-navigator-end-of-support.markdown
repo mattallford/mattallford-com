@@ -13,7 +13,8 @@ tags:
 - SDMP
 - VIN
 - VMware
-- vropsaliases:
+- vrops
+aliases:
 - /2017/vmware-infrastructure-navigator-end-of-support/
 
 ---

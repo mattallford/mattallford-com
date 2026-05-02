@@ -15,7 +15,8 @@ tags:
 - exam
 - learning
 - microsoft
-- studyaliases:
+- study
+aliases:
 - /2019/azure-az-103-certification-experience/
 
 ---

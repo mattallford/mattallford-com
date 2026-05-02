@@ -14,7 +14,8 @@ tags:
 - hybrid
 - mail flow
 - Office365
-- rootcaaliases:
+- rootca
+aliases:
 - /2016/february/exchange-2013-hybrid-mail-pending-rootcatype-certificate-issues/
 
 ---

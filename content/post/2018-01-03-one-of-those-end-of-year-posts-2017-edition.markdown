@@ -7,7 +7,8 @@ type: post
 url: /one-of-those-end-of-year-posts-2017-edition/
 categories:
 - '2018'
-- Januaryaliases:
+- January
+aliases:
 - /2018/one-of-those-end-of-year-posts-2017-edition/
 
 ---

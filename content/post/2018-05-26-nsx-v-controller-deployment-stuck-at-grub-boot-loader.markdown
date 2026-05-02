@@ -14,7 +14,8 @@ tags:
 - NSX
 - NSX-V
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2018/nsx-v-controller-deployment-stuck-at-grub-boot-loader/
 
 ---

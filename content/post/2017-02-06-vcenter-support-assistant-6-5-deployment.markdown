@@ -14,7 +14,8 @@ tags:
 - Support Assistant
 - VMware
 - vsphere
-- vsphere 6.5aliases:
+- vsphere 6.5
+aliases:
 - /2017/vcenter-support-assistant-6-5-deployment/
 
 ---

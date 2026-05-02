@@ -12,7 +12,8 @@ tags:
 - topology
 - upgrade
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2017/vsphere-6-5-topology-and-upgrade-planning-tool/
 
 ---

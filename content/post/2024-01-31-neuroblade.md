@@ -11,7 +11,8 @@ categories:
 tags:
 - CFD
 - Cloud Field Day
-- Tech Field Dayaliases:
+- Tech Field Day
+aliases:
 - /2024/cfd-19-neuroblade/
 
 ---

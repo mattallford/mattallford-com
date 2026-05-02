@@ -14,7 +14,8 @@ tags:
 - event
 - usercon
 - vmug
-- VMwarealiases:
+- VMware
+aliases:
 - /2019/vmug-usercon-2019-sydney-and-melbourne/
 
 ---

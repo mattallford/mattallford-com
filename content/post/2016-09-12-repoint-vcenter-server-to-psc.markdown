@@ -15,7 +15,8 @@ tags:
 - vc
 - vcenter
 - VCSA
-- VMwarealiases:
+- VMware
+aliases:
 - /2016/repoint-vcenter-server-to-psc/
 
 ---

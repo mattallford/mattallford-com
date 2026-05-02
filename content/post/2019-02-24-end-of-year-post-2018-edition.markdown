@@ -7,7 +7,8 @@ type: post
 url: /end-of-year-post-2018-edition/
 categories:
 - '2019'
-- Februaryaliases:
+- February
+aliases:
 - /2019/end-of-year-post-2018-edition/
 
 ---

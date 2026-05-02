@@ -13,7 +13,8 @@ tags:
 - SRA
 - SRM
 - Storage
-- VMwarealiases:
+- VMware
+aliases:
 - /2016/vmware-srm-duplicate-initiator-iqn-1998-01-com-vmwareserver1-280206e1-found-in-sras-discoverdevices-response/
 
 ---

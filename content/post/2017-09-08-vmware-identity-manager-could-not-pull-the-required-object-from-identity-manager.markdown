@@ -12,7 +12,8 @@ categories:
 tags:
 - identity manager
 - vidm
-- VMwarealiases:
+- VMware
+aliases:
 - /2017/vmware-identity-manager-could-not-pull-the-required-object-from-identity-manager/
 
 ---

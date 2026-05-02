@@ -13,7 +13,8 @@ tags:
 - Runecase
 - Runecast Analyser
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2017/runecast-analyser-review-and-walkthrough/
 
 ---

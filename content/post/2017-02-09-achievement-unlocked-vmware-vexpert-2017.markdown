@@ -12,7 +12,8 @@ tags:
 - advocacy
 - award
 - vexpert
-- VMwarealiases:
+- VMware
+aliases:
 - /2017/achievement-unlocked-vmware-vexpert-2017/
 
 ---

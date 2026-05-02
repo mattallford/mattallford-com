@@ -14,7 +14,8 @@ tags:
 - Perennially
 - powercli
 - rdm
-- VMwarealiases:
+- VMware
+aliases:
 - /2016/powercli-functions-get-raw-device-mappings-and-set-perennial-reservations/
 
 ---

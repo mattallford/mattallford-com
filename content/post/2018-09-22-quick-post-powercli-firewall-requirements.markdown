@@ -14,7 +14,8 @@ tags:
 - powercli
 - powershell
 - VMware
-- VUMaliases:
+- VUM
+aliases:
 - /2018/quick-post-powercli-firewall-requirements/
 
 ---

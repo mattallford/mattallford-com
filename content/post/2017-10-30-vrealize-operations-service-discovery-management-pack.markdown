@@ -13,7 +13,8 @@ tags:
 - SDMP
 - VIN
 - VMware
-- vropsaliases:
+- vrops
+aliases:
 - /2017/vrealize-operations-service-discovery-management-pack/
 
 ---

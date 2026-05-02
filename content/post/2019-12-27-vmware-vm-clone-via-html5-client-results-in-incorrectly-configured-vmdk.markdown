@@ -14,7 +14,8 @@ tags:
 - vcenter
 - virtual machine
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2019/vmware-vm-clone-via-html5-client-results-in-incorrectly-configured-vmdk/
 
 ---

@@ -15,7 +15,8 @@ tags:
 - Cohesity
 - data protection
 - policy
-- Restorealiases:
+- Restore
+aliases:
 - /2019/cohesity-dataplatform-6-3-active-directory-backup-and-recovery/
 
 ---

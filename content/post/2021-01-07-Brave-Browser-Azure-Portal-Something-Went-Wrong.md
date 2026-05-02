@@ -12,7 +12,8 @@ tags:
 - Azure
 - Microsoft
 - Brave
-- Browseraliases:
+- Browser
+aliases:
 - /2021/Brave-Browser-Azure-Portal-Something-Went-Wrong/
 
 ---

@@ -13,7 +13,8 @@ tags:
 - converge
 - vcenter
 - VCSA
-- vcsa-utilaliases:
+- vcsa-util
+aliases:
 - /2018/vcenter-6-7-update-1-converge-to-embedded-failed/
 
 ---

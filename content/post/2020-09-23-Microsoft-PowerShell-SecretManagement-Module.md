@@ -12,7 +12,8 @@ tags:
 - PowerShell
 - Secrets
 - Credentials
-- Microsoftaliases:
+- Microsoft
+aliases:
 - /2020/Microsoft-PowerShell-SecretManagement-Module/
 
 ---

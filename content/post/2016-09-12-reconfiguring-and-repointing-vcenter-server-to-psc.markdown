@@ -16,7 +16,8 @@ tags:
 - vcenter
 - vmsso-util
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2016/reconfiguring-and-repointing-vcenter-server-to-psc/
 
 ---

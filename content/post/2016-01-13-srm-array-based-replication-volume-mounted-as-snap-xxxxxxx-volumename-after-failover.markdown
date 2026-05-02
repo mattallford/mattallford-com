@@ -17,7 +17,8 @@ tags:
 - SRM
 - Storage
 - VMware
-- Volumealiases:
+- Volume
+aliases:
 - /2016/srm-array-based-replication-volume-mounted-as-snap-xxxxxxx-volumename-after-failover/
 
 ---

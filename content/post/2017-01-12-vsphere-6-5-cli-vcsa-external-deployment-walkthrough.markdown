@@ -17,7 +17,8 @@ tags:
 - VMware
 - vsphere
 - vsphere 6.5
-- vsphere65aliases:
+- vsphere65
+aliases:
 - /2017/vsphere-6-5-cli-vcsa-external-deployment-walkthrough/
 
 ---

@@ -17,7 +17,8 @@ tags:
 - Az303
 - Certification
 - Course
-- Learningaliases:
+- Learning
+aliases:
 - /2020/New-Pluralsight-Course-Microsoft-Azure-Solutions-Architect-Implement-a-Workload-Management-Strategy/
 
 ---

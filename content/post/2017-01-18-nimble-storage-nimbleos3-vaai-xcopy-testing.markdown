@@ -17,7 +17,8 @@ tags:
 - Storage
 - VAAI
 - VMware
-- xcopyaliases:
+- xcopy
+aliases:
 - /2017/nimble-storage-nimbleos3-vaai-xcopy-testing/
 
 ---

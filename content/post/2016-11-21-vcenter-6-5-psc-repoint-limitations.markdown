@@ -15,7 +15,8 @@ tags:
 - site
 - SSO
 - vc
-- vcenteraliases:
+- vcenter
+aliases:
 - /2016/vcenter-6-5-psc-repoint-limitations/
 
 ---

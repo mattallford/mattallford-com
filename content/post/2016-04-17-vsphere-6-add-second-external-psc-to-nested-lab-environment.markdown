@@ -14,7 +14,8 @@ tags:
 - PSC
 - VMSA
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2016/vsphere-6-add-second-external-psc-to-nested-lab-environment/
 
 ---

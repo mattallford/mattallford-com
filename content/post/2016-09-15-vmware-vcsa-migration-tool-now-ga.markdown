@@ -13,7 +13,8 @@ tags:
 - migrate2vcsa
 - vcenter
 - VCSA
-- VMwarealiases:
+- VMware
+aliases:
 - /2016/vmware-vcsa-migration-tool-now-ga/
 
 ---

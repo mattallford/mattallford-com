@@ -12,7 +12,8 @@ tags:
 - protection
 - site recovery manager
 - SRM
-- VMwarealiases:
+- VMware
+aliases:
 - /2018/vmware-site-recovery-manager-vm-protection-network-not-configured/
 
 ---

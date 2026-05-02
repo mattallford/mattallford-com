@@ -12,7 +12,8 @@ tags:
 - Update Manager
 - VMware
 - vsphere
-- VUMaliases:
+- VUM
+aliases:
 - /2016/quick-tip-finding-vsphere-update-manager-version-and-build/
 
 ---

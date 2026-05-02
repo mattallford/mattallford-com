@@ -16,7 +16,8 @@ tags:
 - exam
 - pass
 - vcap
-- VMwarealiases:
+- VMware
+aliases:
 - /2016/vcap6-dcv-deploy-its-a-pass/
 
 ---

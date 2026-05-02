@@ -17,7 +17,8 @@ tags:
 - vcenter
 - VCSA
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2017/vsphere-6-5-vcsa-deployment-walkthroughs/
 
 ---

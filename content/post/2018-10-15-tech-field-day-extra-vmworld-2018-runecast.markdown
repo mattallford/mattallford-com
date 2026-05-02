@@ -13,7 +13,8 @@ tags:
 - Runecast
 - tech field day
 - tfd
-- tfdxaliases:
+- tfdx
+aliases:
 - /2018/tech-field-day-extra-vmworld-2018-runecast/
 
 ---

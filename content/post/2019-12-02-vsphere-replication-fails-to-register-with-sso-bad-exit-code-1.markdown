@@ -15,7 +15,8 @@ tags:
 - vsphere
 - vsphere rep
 - vsphere replication
-- vsraliases:
+- vsr
+aliases:
 - /2019/vsphere-replication-fails-to-register-with-sso-bad-exit-code-1/
 
 ---

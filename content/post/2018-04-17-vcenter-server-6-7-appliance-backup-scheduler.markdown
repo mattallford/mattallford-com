@@ -15,7 +15,8 @@ tags:
 - vcenter
 - VCSA
 - VMware
-- vsphere 6.7aliases:
+- vsphere 6.7
+aliases:
 - /2018/vcenter-server-6-7-appliance-backup-scheduler/
 
 ---

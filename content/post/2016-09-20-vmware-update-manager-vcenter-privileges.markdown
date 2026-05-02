@@ -12,7 +12,8 @@ tags:
 - Update Manager
 - vcenter
 - vsphere
-- VUMaliases:
+- VUM
+aliases:
 - /2016/vmware-update-manager-vcenter-privileges/
 
 ---

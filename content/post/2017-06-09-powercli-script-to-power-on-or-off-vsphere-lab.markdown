@@ -15,7 +15,8 @@ tags:
 - script
 - set-labvmpowerstate
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2017/powercli-script-to-power-on-or-off-vsphere-lab/
 
 ---

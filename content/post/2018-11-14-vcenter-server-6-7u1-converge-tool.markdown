@@ -15,7 +15,8 @@ tags:
 - PSC
 - vcenter
 - VCSA
-- VMwarealiases:
+- VMware
+aliases:
 - /2018/vcenter-server-6-7u1-converge-tool/
 
 ---

@@ -11,7 +11,8 @@ tags:
 - binding
 - iscsi
 - server2012r2
-- targetaliases:
+- target
+aliases:
 - /2016/march/windows-server-2012-r2-as-iscsi-target-network-binding/
 
 ---

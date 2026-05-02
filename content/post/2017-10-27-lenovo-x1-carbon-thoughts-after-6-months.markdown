@@ -11,7 +11,8 @@ categories:
 tags:
 - laptop
 - lenovo
-- x1 carbonaliases:
+- x1 carbon
+aliases:
 - /2017/lenovo-x1-carbon-thoughts-after-6-months/
 
 ---

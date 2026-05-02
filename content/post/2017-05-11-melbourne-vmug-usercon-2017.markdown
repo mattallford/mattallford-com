@@ -13,7 +13,8 @@ tags:
 - melbourne
 - usercon
 - vmug
-- vmwherealiases:
+- vmwhere
+aliases:
 - /2017/melbourne-vmug-usercon-2017/
 
 ---

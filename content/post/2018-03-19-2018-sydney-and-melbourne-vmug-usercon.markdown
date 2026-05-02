@@ -12,7 +12,8 @@ tags:
 - usercon
 - usergroup
 - vmug
-- VMwarealiases:
+- VMware
+aliases:
 - /2018/2018-sydney-and-melbourne-vmug-usercon/
 
 ---

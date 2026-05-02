@@ -14,7 +14,8 @@ tags:
 - event
 - speaking
 - vForum
-- VMwarealiases:
+- VMware
+aliases:
 - /2018/vmware-vforum-2018-sydney/
 
 ---

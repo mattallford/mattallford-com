@@ -11,7 +11,8 @@ categories:
 tags:
 - blogtober
 - vForum
-- VMwarealiases:
+- VMware
+aliases:
 - /2017/vforum-australia-2017/
 
 ---

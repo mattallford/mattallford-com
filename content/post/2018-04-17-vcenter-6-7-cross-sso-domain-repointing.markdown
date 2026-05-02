@@ -16,7 +16,8 @@ tags:
 - vcenter
 - VMware
 - vsphere
-- vsphere 6.7aliases:
+- vsphere 6.7
+aliases:
 - /2018/vcenter-6-7-cross-sso-domain-repointing/
 
 ---

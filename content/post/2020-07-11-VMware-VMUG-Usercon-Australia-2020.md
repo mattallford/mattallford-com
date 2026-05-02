@@ -13,7 +13,8 @@ tags:
 - VMUG
 - Usercon
 - Community
-- vexpertaliases:
+- vexpert
+aliases:
 - /2020/VMware-VMUG-Usercon-Australia-2020/
 
 ---

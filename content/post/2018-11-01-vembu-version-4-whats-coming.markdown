@@ -10,7 +10,8 @@ categories:
 - November
 tags:
 - backup
-- Vembualiases:
+- Vembu
+aliases:
 - /2018/vembu-version-4-whats-coming/
 
 ---

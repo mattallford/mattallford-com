@@ -14,7 +14,8 @@ tags:
 - reset
 - VMware
 - vsphere
-- vsphere haaliases:
+- vsphere ha
+aliases:
 - /2019/quick-post-vsphere-6-7-sporadic-vm-resets-by-vsphere-ha/
 
 ---

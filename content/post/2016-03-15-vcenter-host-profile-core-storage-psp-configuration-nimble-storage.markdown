@@ -14,7 +14,8 @@ tags:
 - Profile
 - PSP
 - SATP
-- VMwarealiases:
+- VMware
+aliases:
 - /2016/march/vcenter-host-profile-core-storage-psp-configuration-nimble-storage/
 
 ---

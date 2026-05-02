@@ -14,7 +14,8 @@ tags:
 - Functions
 - CloudSkills
 - Course
-- Learningaliases:
+- Learning
+aliases:
 - /2020/Video-course-azure-functions-for-devops-engineers/
 
 ---

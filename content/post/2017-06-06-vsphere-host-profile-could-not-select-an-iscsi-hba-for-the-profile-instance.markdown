@@ -12,7 +12,8 @@ tags:
 - iscsi
 - vmhba
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2017/june-2017/vsphere-host-profile-could-not-select-an-iscsi-hba-for-the-profile-instance/
 
 ---

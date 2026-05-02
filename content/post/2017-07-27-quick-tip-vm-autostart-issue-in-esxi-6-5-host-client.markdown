@@ -13,7 +13,8 @@ tags:
 - EHC
 - Embedded Host Client
 - esxi
-- VMwarealiases:
+- VMware
+aliases:
 - /2017/quick-tip-vm-autostart-issue-in-esxi-6-5-host-client/
 
 ---

@@ -14,7 +14,8 @@ tags:
 - lab deployment
 - vghetto
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2017/additions-to-vghetto-automated-vsphere-lab-deployment/
 
 ---

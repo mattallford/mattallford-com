@@ -14,7 +14,8 @@ tags:
 - powercli
 - script
 - Storage
-- vswitchaliases:
+- vswitch
+aliases:
 - /2016/powercli-script-configure-esxi-host-for-connectivity-to-nimble-iscsi-san/
 
 ---

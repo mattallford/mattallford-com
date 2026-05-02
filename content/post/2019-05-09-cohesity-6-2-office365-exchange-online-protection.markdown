@@ -14,7 +14,8 @@ tags:
 - data protection
 - Office365
 - recovery
-- Restorealiases:
+- Restore
+aliases:
 - /2019/cohesity-6-2-office365-exchange-online-protection/
 
 ---

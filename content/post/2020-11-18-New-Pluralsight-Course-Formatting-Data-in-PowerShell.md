@@ -13,7 +13,8 @@ tags:
 - PowerShell
 - Pluralsight
 - Course
-- Learningaliases:
+- Learning
+aliases:
 - /2020/New-Pluralsight-Course-Formatting-Data-in-PowerShell/
 
 ---

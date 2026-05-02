@@ -12,7 +12,8 @@ tags:
 - Proactive
 - skyline
 - support
-- VMwarealiases:
+- VMware
+aliases:
 - /2017/vmware-skyline/
 
 ---

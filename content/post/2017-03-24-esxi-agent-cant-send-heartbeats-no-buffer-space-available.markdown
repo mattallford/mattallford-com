@@ -14,7 +14,8 @@ tags:
 - esxi
 - heartbeats
 - VMware
-- vspherealiases:
+- vsphere
+aliases:
 - /2017/esxi-agent-cant-send-heartbeats-no-buffer-space-available/
 
 ---

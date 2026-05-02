@@ -13,7 +13,8 @@ tags:
 - VMware
 - vsphere 6.5
 - vsphere65
-- web clientaliases:
+- web client
+aliases:
 - /2016/vsphere-6-5-upload-file-to-service-request-via-web-client/
 
 ---

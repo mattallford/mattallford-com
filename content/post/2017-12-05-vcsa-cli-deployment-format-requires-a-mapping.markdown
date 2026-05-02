@@ -14,7 +14,8 @@ tags:
 - vcenter
 - VCSA
 - vcsa-deploy
-- VMwarealiases:
+- VMware
+aliases:
 - /2017/vcsa-cli-deployment-format-requires-a-mapping/
 
 ---

@@ -9,7 +9,8 @@ categories:
 - June
 
 tags:
-- Newsletteraliases:
+- Newsletter
+aliases:
 - /2023/Newsletter-Launch/
 
 ---

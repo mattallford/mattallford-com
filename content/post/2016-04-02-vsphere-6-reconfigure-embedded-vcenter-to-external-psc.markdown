@@ -17,7 +17,8 @@ tags:
 - repoint
 - VCSA
 - vmca
-- vspherealiases:
+- vsphere
+aliases:
 - /2016/vsphere-6-reconfigure-embedded-vcenter-to-external-psc/
 
 ---

@@ -7,7 +7,8 @@ type: post
 url: /vmware-vexpert-2018/
 categories:
 - '2018'
-- Marchaliases:
+- March
+aliases:
 - /2018/vmware-vexpert-2018/
 
 ---

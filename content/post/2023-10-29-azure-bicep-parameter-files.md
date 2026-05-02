@@ -12,7 +12,8 @@ tags:
 - Azure
 - Bicep
 - IaC
-- Infrastructure as Codealiases:
+- Infrastructure as Code
+aliases:
 - /2023/azure-bicep-parameter-files/
 
 ---

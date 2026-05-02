@@ -12,7 +12,8 @@ tags:
 - emulex
 - esxi
 - ramdisk
-- scratchaliases:
+- scratch
+aliases:
 - /2017/emulex-drivers-causing-issues-with-esxi-ramdisk-and-scratch-config/
 
 ---
