@@ -4,7 +4,7 @@ date: 2016-02-01 04:39:09+00:00
 draft: false
 title: PowerCLI Script- Configure ESXi Host for Connectivity to Nimble iSCSI SAN
 type: post
-url: /2016/powercli-script-configure-esxi-host-for-connectivity-to-nimble-iscsi-san/
+url: /powercli-script-configure-esxi-host-for-connectivity-to-nimble-iscsi-san/
 categories:
 - '2016'
 - January
@@ -14,7 +14,9 @@ tags:
 - powercli
 - script
 - Storage
-- vswitch
+- vswitchaliases:
+- /2016/powercli-script-configure-esxi-host-for-connectivity-to-nimble-iscsi-san/
+
 ---
 
 So last week I noticed that a user by the name of Dean had opened a [thread ](https://connect.nimblestorage.com/thread/2420?et=watches.email.outcome)on the Nimble Connect forums with some handy PowerCLI to configure an ESXi host to connect to Nimble Storage arrays. I had done the same thing near the end of 2015 when we installed 6 Nimble Storage arrays in our environment, and I was meant to get around to putting it all together in a powershell function/script. Reading Dean's thread prompted me to revisit this task, and I now have a version 1.0 release of a PowerCLI script that can be run against an ESXi host.

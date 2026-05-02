@@ -4,14 +4,16 @@ date: 2018-05-18 10:26:59+00:00
 draft: false
 title: Redeploying NSX Edges To a New Cluster After Manager Restoration
 type: post
-url: /2018/redeploying-nsx-edges-to-a-new-cluster-after-manager-restoration/
+url: /redeploying-nsx-edges-to-a-new-cluster-after-manager-restoration/
 tags:
 - Edge
 - lab
 - NSX
 - NSX Edge
 - Restore
-- VMware
+- VMwarealiases:
+- /2018/redeploying-nsx-edges-to-a-new-cluster-after-manager-restoration/
+
 ---
 
 That title is a bit of a mouthful, but it's Friday night and that's the best I've got!

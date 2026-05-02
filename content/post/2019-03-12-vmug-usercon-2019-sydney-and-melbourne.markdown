@@ -4,7 +4,7 @@ date: 2019-03-12 11:56:24+00:00
 draft: false
 title: VMUG UserCon 2019 - Sydney and Melbourne
 type: post
-url: /2019/vmug-usercon-2019-sydney-and-melbourne/
+url: /vmug-usercon-2019-sydney-and-melbourne/
 categories:
 - '2019'
 - March
@@ -14,7 +14,9 @@ tags:
 - event
 - usercon
 - vmug
-- VMware
+- VMwarealiases:
+- /2019/vmug-usercon-2019-sydney-and-melbourne/
+
 ---
 
 This approached very quickly, and next week one of the hottest VMware events in ANZ will be held in Sydney and Melbourne - the VMUG UserCon events!

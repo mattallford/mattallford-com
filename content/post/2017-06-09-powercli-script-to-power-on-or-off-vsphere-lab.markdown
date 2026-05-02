@@ -4,7 +4,7 @@ date: 2017-06-09 10:37:22+00:00
 draft: false
 title: PowerCLI Script to Power On or Off vSphere Lab
 type: post
-url: /2017/powercli-script-to-power-on-or-off-vsphere-lab/
+url: /powercli-script-to-power-on-or-off-vsphere-lab/
 categories:
 - '2017'
 - June
@@ -15,7 +15,9 @@ tags:
 - script
 - set-labvmpowerstate
 - VMware
-- vsphere
+- vspherealiases:
+- /2017/powercli-script-to-power-on-or-off-vsphere-lab/
+
 ---
 
 I was recently chatting to a few guys regarding powering on and off VMs within a vSphere lab and using a script to do so in some sort of controlled manner (or force power off everything if desired). A few of us had a quick search, and couldn't see anything that met the requirements of being able to power on and power off the lab, as well as place VMs into some sort of priority group.

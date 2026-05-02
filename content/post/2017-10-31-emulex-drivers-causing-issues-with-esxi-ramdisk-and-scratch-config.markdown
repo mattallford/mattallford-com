@@ -4,7 +4,7 @@ date: 2017-10-31 10:01:02+00:00
 draft: false
 title: Emulex Drivers Causing issues with ESXi RamDisk and Scratch Config
 type: post
-url: /2017/emulex-drivers-causing-issues-with-esxi-ramdisk-and-scratch-config/
+url: /emulex-drivers-causing-issues-with-esxi-ramdisk-and-scratch-config/
 categories:
 - '2017'
 - October
@@ -12,7 +12,9 @@ tags:
 - emulex
 - esxi
 - ramdisk
-- scratch
+- scratchaliases:
+- /2017/emulex-drivers-causing-issues-with-esxi-ramdisk-and-scratch-config/
+
 ---
 
 I'm a bit late to the blogosphere with with one, but we've had a couple of customers hit the issue described below, and it seems to be mostly across HPE and Dell hosts running ESXi 6.x.

@@ -3,7 +3,7 @@ author: Matt Allford
 title: "New Pluralsight Course: Extending PowerShell"
 date: 2020-09-16
 draft: false
-url: /2020/New-Pluralsight-Course-Extending-PowerShell/
+url: /New-Pluralsight-Course-Extending-PowerShell/
 categories:
 - '2020'
 - September
@@ -13,7 +13,9 @@ tags:
 - PowerShell
 - Pluralsight
 - Course
-- Learning
+- Learningaliases:
+- /2020/New-Pluralsight-Course-Extending-PowerShell/
+
 ---
 
 

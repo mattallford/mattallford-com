@@ -4,14 +4,16 @@ date: 2016-03-07 21:39:51+00:00
 draft: false
 title: Windows Server 2012 R2 as iSCSI Target - Network Binding
 type: post
-url: /2016/march/windows-server-2012-r2-as-iscsi-target-network-binding/
+url: /windows-server-2012-r2-as-iscsi-target-network-binding/
 categories:
 - March
 tags:
 - binding
 - iscsi
 - server2012r2
-- target
+- targetaliases:
+- /2016/march/windows-server-2012-r2-as-iscsi-target-network-binding/
+
 ---
 
 I'm still getting my lab configured and I am planning on using Windows Server 2012 R2 as an iSCSI target (as well as an NFS server). The server in my environment is called Storage01. I've added 2 NICs to the machine, and was trying to figure out where to set the network binding for the iSCSI traffic. It wasn't where I expected, and I couldn't find much online, so I thought I'd write a quick note on it.

@@ -4,7 +4,7 @@ date: 2018-03-19 07:58:03+00:00
 draft: false
 title: 2018 Sydney and Melbourne VMUG UserCon
 type: post
-url: /2018/2018-sydney-and-melbourne-vmug-usercon/
+url: /2018-sydney-and-melbourne-vmug-usercon/
 categories:
 - '2018'
 - March
@@ -12,7 +12,9 @@ tags:
 - usercon
 - usergroup
 - vmug
-- VMware
+- VMwarealiases:
+- /2018/2018-sydney-and-melbourne-vmug-usercon/
+
 ---
 
 Well, it's that time of the year again. The VMware User Group (VMUG) UserCon's are on again this week in Sydney (Tuesday 20th March) and Melbourne (Thursday 22nd March), Australia. VMUG UserCon is a **free** day long event filled with a few keynotes, breakout sessions, networking and checking out the exhibit hall.

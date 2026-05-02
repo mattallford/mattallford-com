@@ -4,7 +4,7 @@ date: 2016-03-15 03:09:11+00:00
 draft: false
 title: vCenter Host Profile Core Storage PSP Configuration - Nimble Storage
 type: post
-url: /2016/march/vcenter-host-profile-core-storage-psp-configuration-nimble-storage/
+url: /vcenter-host-profile-core-storage-psp-configuration-nimble-storage/
 categories:
 - March
 tags:
@@ -14,7 +14,9 @@ tags:
 - Profile
 - PSP
 - SATP
-- VMware
+- VMwarealiases:
+- /2016/march/vcenter-host-profile-core-storage-psp-configuration-nimble-storage/
+
 ---
 
 I'm working on rolling out vCenter Host Profiles at work, to keep an eye on our configuration and also to assist in the deployment of new ESXi servers into our environment. If you haven't checked out host profiles and you have a VMWare Enterprise Plus license, it is a must!

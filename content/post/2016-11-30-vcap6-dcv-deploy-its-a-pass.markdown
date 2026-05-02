@@ -4,7 +4,7 @@ date: 2016-11-30 05:08:31+00:00
 draft: false
 title: VCAP6-DCV Deploy - It's a Pass!
 type: post
-url: /2016/vcap6-dcv-deploy-its-a-pass/
+url: /vcap6-dcv-deploy-its-a-pass/
 categories:
 - '2016'
 - November
@@ -16,7 +16,9 @@ tags:
 - exam
 - pass
 - vcap
-- VMware
+- VMwarealiases:
+- /2016/vcap6-dcv-deploy-its-a-pass/
+
 ---
 
 Last week I sat the VMware Certified Advanced Professional - Data Center Virtualisation Deploy ( VCAP6-DCV Deploy) exam in Auckland and I'm happy to say I passed the exam. I thought I would do a bit of a write up below of my experience.

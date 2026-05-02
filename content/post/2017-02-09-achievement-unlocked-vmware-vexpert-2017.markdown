@@ -4,7 +4,7 @@ date: 2017-02-09 09:27:40+00:00
 draft: false
 title: 'Achievement Unlocked: VMware vExpert 2017'
 type: post
-url: /2017/achievement-unlocked-vmware-vexpert-2017/
+url: /achievement-unlocked-vmware-vexpert-2017/
 categories:
 - '2017'
 - February
@@ -12,7 +12,9 @@ tags:
 - advocacy
 - award
 - vexpert
-- VMware
+- VMwarealiases:
+- /2017/achievement-unlocked-vmware-vexpert-2017/
+
 ---
 
 Early this morning VMware released the results for the VMware vExpert 2017 programme. Before even seeing the post, I woke up to a couple of slack messages with congrats (I'm currently on holiday and also on the Gold Coast, 1 hour behind my normal time zone!). I checked out the official post (link below) and sure enough my name is listed there, along with 1400 odd other people! From what I've seen there were around 100 new members in 2017. Congratulations to all new and renewed members. I'm the 4th vExpert working for ViFX, a big congratulations to my vExpert colleagues [Bayu Wibowo](https://twitter.com/bayupw), [Nick Bowie](https://twitter.com/NickBowieNZ) and [Steven Kang](https://twitter.com/ssbkang).

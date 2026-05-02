@@ -4,7 +4,7 @@ date: 2016-09-04 22:23:54+00:00
 draft: false
 title: VMworld 2016 US Breakout Session Recordings Available
 type: post
-url: /2016/vmworld-2016-us-breakout-session-recordings-available/
+url: /vmworld-2016-us-breakout-session-recordings-available/
 categories:
 - '2016'
 - September
@@ -12,7 +12,9 @@ tags:
 - sessions
 - streaming
 - VMware
-- vmworld
+- vmworldaliases:
+- /2016/vmworld-2016-us-breakout-session-recordings-available/
+
 ---
 
 **Edit:** At the time of publishing, the main page at www.vmworld.com is not rendering correctly (it is just showing a blank white page where the videos should be), though it was a few days ago. The URL that should be displaying on the vmworld URL below is [http://www.webcastregister2016.com/vmware/form.php](http://www.webcastregister2016.com/vmware/form.php), and you can go directly to this URL to access the videos if the URL below is not working when you try.

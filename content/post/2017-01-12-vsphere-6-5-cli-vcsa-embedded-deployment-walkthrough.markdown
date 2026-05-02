@@ -4,7 +4,7 @@ date: 2017-01-12 11:47:00+00:00
 draft: false
 title: vSphere 6.5 – CLI VCSA Embedded Deployment Walkthrough
 type: post
-url: /2017/vsphere-6-5-cli-vcsa-embedded-deployment-walkthrough/
+url: /vsphere-6-5-cli-vcsa-embedded-deployment-walkthrough/
 categories:
 - '2017'
 - January
@@ -18,7 +18,9 @@ tags:
 - VMware
 - vsphere
 - vsphere 6.5
-- vsphere65
+- vsphere65aliases:
+- /2017/vsphere-6-5-cli-vcsa-embedded-deployment-walkthrough/
+
 ---
 
 The post below will walk through the deployment of an embedded vCenter Server Appliance (VCSA) 6.5 node to a target ESXi server using the command line interface (CLI) deployment method.

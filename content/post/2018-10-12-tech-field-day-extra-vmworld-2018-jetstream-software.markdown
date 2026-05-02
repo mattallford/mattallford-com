@@ -4,7 +4,7 @@ date: 2018-10-12 12:38:19+00:00
 draft: false
 title: Tech Field Day Extra VMworld 2018 - Jetstream Software
 type: post
-url: /2018/tech-field-day-extra-vmworld-2018-jetstream-software/
+url: /tech-field-day-extra-vmworld-2018-jetstream-software/
 categories:
 - '2018'
 - October
@@ -13,7 +13,9 @@ tags:
 - jetstream
 - tech field day
 - tfd
-- tfdx
+- tfdxaliases:
+- /2018/tech-field-day-extra-vmworld-2018-jetstream-software/
+
 ---
 
 **DISCLAIMER:  During VMworld 2018 US (Las Vegas), I was invited as a delegate to the Tech Field Day Extra (TFDx) event. I was not compensated in any way, my conference pass was complimentary as I was a speaker at the event and other expenses were covered by my employer, Parallo. I'm not required to write this blog post, I chose to do so of my own accord. This blog post is aimed to summarise the presentation that I was present for and also to provide some additional information about the company or solution presented on, which is all based on my opinion.**

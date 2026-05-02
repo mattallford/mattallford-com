@@ -4,7 +4,7 @@ date: 2018-02-27 12:30:21+00:00
 draft: false
 title: 'VMware Site Recovery Manager: VM Protection - Network Not Configured'
 type: post
-url: /2018/vmware-site-recovery-manager-vm-protection-network-not-configured/
+url: /vmware-site-recovery-manager-vm-protection-network-not-configured/
 categories:
 - '2018'
 - February
@@ -12,7 +12,9 @@ tags:
 - protection
 - site recovery manager
 - SRM
-- VMware
+- VMwarealiases:
+- /2018/vmware-site-recovery-manager-vm-protection-network-not-configured/
+
 ---
 
 So that title is a mouthful, but I came across an issue for a customer today where network mappings within SRM were not functioning correctly when attempting to configure protection for virtual machines.

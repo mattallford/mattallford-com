@@ -5,14 +5,16 @@ draft: false
 title: VMware Identity Manager - Could not Pull the Required Object From Identity
   Manager
 type: post
-url: /2017/vmware-identity-manager-could-not-pull-the-required-object-from-identity-manager/
+url: /vmware-identity-manager-could-not-pull-the-required-object-from-identity-manager/
 categories:
 - '2017'
 - August
 tags:
 - identity manager
 - vidm
-- VMware
+- VMwarealiases:
+- /2017/vmware-identity-manager-could-not-pull-the-required-object-from-identity-manager/
+
 ---
 
 I was recently working in a customers environment to configure vRealize Log Insight with VMware Identity Manager. They had vIDM deployed some time ago and configured, primarily for vRealize Business for Cloud. I'm not yet that familiar with vIDM, and I learnt something new in troubleshooting this issue.

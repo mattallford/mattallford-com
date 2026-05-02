@@ -4,7 +4,7 @@ date: 2018-10-15 11:32:40+00:00
 draft: false
 title: Tech Field Day Extra VMworld 2018 - Runecast
 type: post
-url: /2018/tech-field-day-extra-vmworld-2018-runecast/
+url: /tech-field-day-extra-vmworld-2018-runecast/
 categories:
 - '2018'
 - October
@@ -13,7 +13,9 @@ tags:
 - Runecast
 - tech field day
 - tfd
-- tfdx
+- tfdxaliases:
+- /2018/tech-field-day-extra-vmworld-2018-runecast/
+
 ---
 
 [Runecast](https://www.runecast.com/) were the last company I had the pleasure of being a delegate for at the Tech Field Day Extra at VMworld US 2018.

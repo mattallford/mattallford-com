@@ -4,7 +4,7 @@ date: 2016-11-21 12:18:52+00:00
 draft: false
 title: vCenter 6.5 PSC Repoint Limitations
 type: post
-url: /2016/vcenter-6-5-psc-repoint-limitations/
+url: /vcenter-6-5-psc-repoint-limitations/
 categories:
 - '2016'
 - November
@@ -15,7 +15,9 @@ tags:
 - site
 - SSO
 - vc
-- vcenter
+- vcenteraliases:
+- /2016/vcenter-6-5-psc-repoint-limitations/
+
 ---
 
 Hi all,

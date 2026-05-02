@@ -4,7 +4,7 @@ date: 2016-12-12 11:29:11+00:00
 draft: false
 title: Quick Tip - Finding vSphere Update Manager Version and Build
 type: post
-url: /2016/quick-tip-finding-vsphere-update-manager-version-and-build/
+url: /quick-tip-finding-vsphere-update-manager-version-and-build/
 categories:
 - '2016'
 - December
@@ -12,7 +12,9 @@ tags:
 - Update Manager
 - VMware
 - vsphere
-- VUM
+- VUMaliases:
+- /2016/quick-tip-finding-vsphere-update-manager-version-and-build/
+
 ---
 
 Every now and then I need to find the version and build number of VMware vSphere Update Manager that is running in a customer's environment. I've written this post mainly as a reminder to myself, but hopefully it helps someone else down the track.

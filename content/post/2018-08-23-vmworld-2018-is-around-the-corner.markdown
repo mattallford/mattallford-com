@@ -4,7 +4,7 @@ date: 2018-08-23 11:26:02+00:00
 draft: false
 title: VMworld 2018 Is Around The Corner
 type: post
-url: /2018/vmworld-2018-is-around-the-corner/
+url: /vmworld-2018-is-around-the-corner/
 categories:
 - '2018'
 - August
@@ -12,7 +12,9 @@ tags:
 - tech field day
 - tfd
 - VMware
-- vmworld
+- vmworldaliases:
+- /2018/vmworld-2018-is-around-the-corner/
+
 ---
 
 Well, that rolled around quickly. I remember booking the flights, accommodation and registration for VMware's flagship VMworld event months ago and I'm now writing this from the plane about half way through the 27 hour journey from my home in Tasmania, Australia, to Las Vegas.

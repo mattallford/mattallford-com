@@ -4,7 +4,7 @@ date: 2017-01-12 11:41:25+00:00
 draft: false
 title: vSphere 6.5 - VCSA Deployment Walkthroughs
 type: post
-url: /2017/vsphere-6-5-vcsa-deployment-walkthroughs/
+url: /vsphere-6-5-vcsa-deployment-walkthroughs/
 categories:
 - '2017'
 - January
@@ -17,7 +17,9 @@ tags:
 - vcenter
 - VCSA
 - VMware
-- vsphere
+- vspherealiases:
+- /2017/vsphere-6-5-vcsa-deployment-walkthroughs/
+
 ---
 
 [toc]

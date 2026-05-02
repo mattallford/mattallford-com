@@ -4,7 +4,7 @@ date: 2019-07-04 05:43:30+00:00
 draft: false
 title: 'Quick Post: vSphere 6.7 - Sporadic VM Resets by vSphere HA'
 type: post
-url: /2019/quick-post-vsphere-6-7-sporadic-vm-resets-by-vsphere-ha/
+url: /quick-post-vsphere-6-7-sporadic-vm-resets-by-vsphere-ha/
 categories:
 - '2019'
 - July
@@ -14,7 +14,9 @@ tags:
 - reset
 - VMware
 - vsphere
-- vsphere ha
+- vsphere haaliases:
+- /2019/quick-post-vsphere-6-7-sporadic-vm-resets-by-vsphere-ha/
+
 ---
 
 We had a customer recently that upgraded from vSphere 6.5 to 6.7 and following the upgrade to 6.7, virtual machines were sporadically being reset by vSphere HA with the following message in the vCenter event log:

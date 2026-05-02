@@ -4,7 +4,7 @@ date: 2016-08-21 12:23:00+00:00
 draft: false
 title: Reminder - vSphere 5.0 and 5.1 End of General Support
 type: post
-url: /2016/reminder-vsphere-5-0-and-5-1-end-of-general-support/
+url: /reminder-vsphere-5-0-and-5-1-end-of-general-support/
 categories:
 - '2016'
 - August
@@ -14,7 +14,9 @@ tags:
 - esxi
 - upgrade
 - vcenter
-- vsphere
+- vspherealiases:
+- /2016/reminder-vsphere-5-0-and-5-1-end-of-general-support/
+
 ---
 
 In the busy world we live in, a lot can be said for the "time flies when you're having fun" saying. And with so much happening in the world of the SDDC, it's easy to forget about some of the core components that, for the most part, sit there reasonably quietly just 'doing their thing'.

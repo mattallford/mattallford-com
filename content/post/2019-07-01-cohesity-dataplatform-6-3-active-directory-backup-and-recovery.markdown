@@ -4,7 +4,7 @@ date: 2019-07-01 11:35:13+00:00
 draft: false
 title: Cohesity DataPlatform 6.3 - Active Directory Backup and Recovery
 type: post
-url: /2019/cohesity-dataplatform-6-3-active-directory-backup-and-recovery/
+url: /cohesity-dataplatform-6-3-active-directory-backup-and-recovery/
 categories:
 - '2019'
 - July
@@ -15,7 +15,9 @@ tags:
 - Cohesity
 - data protection
 - policy
-- Restore
+- Restorealiases:
+- /2019/cohesity-dataplatform-6-3-active-directory-backup-and-recovery/
+
 ---
 
 I'll be upfront and honest - backup and recovery doesn't excite me, and it never has. On the other hand, this world of data management, policy driven protection / placement and analysis of said data does tweak my interest, which is why I taken an interest in tinkering with some of the modern platforms, for want of a better term, such as Cohesity. But as I was reading through the "what's new" section of Cohesity DataPlatform 6.3, which I've got early access to (Thanks [Pete Marfatia](https://twitter.com/PMarfatia)), I saw the following comment:

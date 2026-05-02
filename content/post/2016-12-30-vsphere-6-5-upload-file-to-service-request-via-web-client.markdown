@@ -4,7 +4,7 @@ date: 2016-12-30 11:02:53+00:00
 draft: false
 title: vSphere 6.5 - Upload File to Service Request via Web Client
 type: post
-url: /2016/vsphere-6-5-upload-file-to-service-request-via-web-client/
+url: /vsphere-6-5-upload-file-to-service-request-via-web-client/
 categories:
 - '2016'
 - December
@@ -13,7 +13,9 @@ tags:
 - VMware
 - vsphere 6.5
 - vsphere65
-- web client
+- web clientaliases:
+- /2016/vsphere-6-5-upload-file-to-service-request-via-web-client/
+
 ---
 
 Just a quick note on something I spotted as I've been working through some blog posts for vSphere 6.5. It looks like you can now upload files for a Support Request to VMware directly from the vSphere Web Client.

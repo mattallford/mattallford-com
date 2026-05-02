@@ -4,7 +4,7 @@ date: 2016-04-02 10:45:08+00:00
 draft: false
 title: vSphere 6 - Reconfigure Embedded vCenter to External PSC
 type: post
-url: /2016/vsphere-6-reconfigure-embedded-vcenter-to-external-psc/
+url: /vsphere-6-reconfigure-embedded-vcenter-to-external-psc/
 categories:
 - '2016'
 - April
@@ -17,7 +17,9 @@ tags:
 - repoint
 - VCSA
 - vmca
-- vsphere
+- vspherealiases:
+- /2016/vsphere-6-reconfigure-embedded-vcenter-to-external-psc/
+
 ---
 
 # Introduction

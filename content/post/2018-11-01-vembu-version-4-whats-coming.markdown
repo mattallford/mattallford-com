@@ -4,13 +4,15 @@ date: 2018-11-01 09:07:33+00:00
 draft: false
 title: Vembu Version 4 - What's Coming
 type: post
-url: /2018/vembu-version-4-whats-coming/
+url: /vembu-version-4-whats-coming/
 categories:
 - '2018'
 - November
 tags:
 - backup
-- Vembu
+- Vembualiases:
+- /2018/vembu-version-4-whats-coming/
+
 ---
 
 _**Disclaimer:**_ _Vembu are a sponsor of Virtual Tassie and this post is a sponsored blog post. This post has been written in my own words but may contain some material supplied by Vembu for an upcoming release or announcement._

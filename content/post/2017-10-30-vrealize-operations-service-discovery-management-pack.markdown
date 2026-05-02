@@ -4,7 +4,7 @@ date: 2017-10-30 11:23:45+00:00
 draft: false
 title: vRealize Operations Service Discovery Management Pack
 type: post
-url: /2017/vrealize-operations-service-discovery-management-pack/
+url: /vrealize-operations-service-discovery-management-pack/
 categories:
 - '2017'
 - October
@@ -13,7 +13,9 @@ tags:
 - SDMP
 - VIN
 - VMware
-- vrops
+- vropsaliases:
+- /2017/vrealize-operations-service-discovery-management-pack/
+
 ---
 
 For those that weren't aware, vRealize Infrastructure Navigator went End of Distribution (EOD) and End of Support Life (EOSL) at the end of September, 2017. Information on this is provided in [another post](https://virtualtassie.com/2017/vmware-infrastructure-navigator-end-of-support/).

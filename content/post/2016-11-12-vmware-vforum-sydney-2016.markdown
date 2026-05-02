@@ -4,7 +4,7 @@ date: 2016-11-12 12:30:19+00:00
 draft: false
 title: VMware vForum Sydney 2016
 type: post
-url: /2016/vmware-vforum-sydney-2016/
+url: /vmware-vforum-sydney-2016/
 categories:
 - '2016'
 - November
@@ -16,7 +16,9 @@ tags:
 - vForum
 - vforumau
 - vmdownunderground
-- VMware
+- VMwarealiases:
+- /2016/vmware-vforum-sydney-2016/
+
 ---
 
 [toc]

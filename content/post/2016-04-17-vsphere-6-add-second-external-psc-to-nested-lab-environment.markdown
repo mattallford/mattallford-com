@@ -4,7 +4,7 @@ date: 2016-04-17 21:52:02+00:00
 draft: false
 title: vSphere 6 - Add Second External PSC to Nested Lab Environment
 type: post
-url: /2016/vsphere-6-add-second-external-psc-to-nested-lab-environment/
+url: /vsphere-6-add-second-external-psc-to-nested-lab-environment/
 categories:
 - '2016'
 - April
@@ -14,7 +14,9 @@ tags:
 - PSC
 - VMSA
 - VMware
-- vsphere
+- vspherealiases:
+- /2016/vsphere-6-add-second-external-psc-to-nested-lab-environment/
+
 ---
 
 For my lab, I run everything nested within VMWare workstation, which is running on a single Dell physical host that runs Windows for the base OS. Over the past couple of months, I've been trying to spend a bit more time in the lab, mostly for learning some components of the vSphere environment I'm not familiar with, but also as a test area. I deliberately started the environment with a single embedded deployment, so the PSC and VC server was running on the one node. I also made the decision to run the lab with the appliance. We run the appliance in production, and it is clear that this is the preferred deployment method from VMWare.

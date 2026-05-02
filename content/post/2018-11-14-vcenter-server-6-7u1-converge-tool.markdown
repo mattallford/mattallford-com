@@ -4,7 +4,7 @@ date: 2018-11-14 12:03:20+00:00
 draft: false
 title: vCenter Server 6.7U1 Converge Tool
 type: post
-url: /2018/vcenter-server-6-7u1-converge-tool/
+url: /vcenter-server-6-7u1-converge-tool/
 categories:
 - '2018'
 - November
@@ -15,7 +15,9 @@ tags:
 - PSC
 - vcenter
 - VCSA
-- VMware
+- VMwarealiases:
+- /2018/vcenter-server-6-7u1-converge-tool/
+
 ---
 
 

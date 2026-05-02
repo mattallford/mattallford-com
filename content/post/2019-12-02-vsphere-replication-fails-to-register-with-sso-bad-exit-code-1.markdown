@@ -4,7 +4,7 @@ date: 2019-12-02 21:59:10+00:00
 draft: false
 title: 'vSphere Replication Fails to Register with SSO - "Bad Exit Code: 1"'
 type: post
-url: /2019/vsphere-replication-fails-to-register-with-sso-bad-exit-code-1/
+url: /vsphere-replication-fails-to-register-with-sso-bad-exit-code-1/
 categories:
 - '2019'
 - December
@@ -15,7 +15,9 @@ tags:
 - vsphere
 - vsphere rep
 - vsphere replication
-- vsr
+- vsraliases:
+- /2019/vsphere-replication-fails-to-register-with-sso-bad-exit-code-1/
+
 ---
 
 I was recently involved in an issue in an evnironment that started out looking like a simple SSL certificate replacement and ended with multiple hours of troubleshooting with GSS and redeployment of vSphere Replication. Fun times, right?!

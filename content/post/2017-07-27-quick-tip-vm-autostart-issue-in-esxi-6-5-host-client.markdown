@@ -4,7 +4,7 @@ date: 2017-07-27 06:12:41+00:00
 draft: false
 title: Quick Tip - VM Autostart Issue in ESXi 6.5 Host Client
 type: post
-url: /2017/quick-tip-vm-autostart-issue-in-esxi-6-5-host-client/
+url: /quick-tip-vm-autostart-issue-in-esxi-6-5-host-client/
 categories:
 - '2017'
 - July
@@ -13,7 +13,9 @@ tags:
 - EHC
 - Embedded Host Client
 - esxi
-- VMware
+- VMwarealiases:
+- /2017/quick-tip-vm-autostart-issue-in-esxi-6-5-host-client/
+
 ---
 
 I've just been working through automating the powering on and off of my lab server, which is a single physical server running ESXi 6.5, and nested virtual machines for my lab. I wanted to use the ESXi Autostart feature to start my domain controller and jump box at power on. But I had an issue where one of the two VMs I want to power on would simply not start.

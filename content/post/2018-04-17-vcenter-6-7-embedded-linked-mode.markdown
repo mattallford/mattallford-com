@@ -4,7 +4,7 @@ date: 2018-04-17 14:17:07+00:00
 draft: false
 title: vCenter 6.7 Embedded Linked Mode
 type: post
-url: /2018/vcenter-6-7-embedded-linked-mode/
+url: /vcenter-6-7-embedded-linked-mode/
 categories:
 - '2018'
 - April
@@ -15,7 +15,9 @@ tags:
 - VCSA
 - VMware
 - vsphere
-- vsphere 6.7
+- vsphere 6.7aliases:
+- /2018/vcenter-6-7-embedded-linked-mode/
+
 ---
 
 [toc]

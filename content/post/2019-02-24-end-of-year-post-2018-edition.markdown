@@ -4,10 +4,12 @@ date: 2019-02-24 23:51:44+00:00
 draft: false
 title: End of Year Post - 2018 Edition
 type: post
-url: /2019/end-of-year-post-2018-edition/
+url: /end-of-year-post-2018-edition/
 categories:
 - '2019'
-- February
+- Februaryaliases:
+- /2019/end-of-year-post-2018-edition/
+
 ---
 
 Yeah - I know, I know. It's February 2019 already and I'm only just wrapping up the 2018 calendar year! Better late than never, right?

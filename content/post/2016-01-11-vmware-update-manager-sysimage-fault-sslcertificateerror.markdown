@@ -4,7 +4,7 @@ date: 2016-01-11 01:37:53+00:00
 draft: false
 title: VMWare Update Manager sysimage.fault.SSLCertificateError
 type: post
-url: /2016/vmware-update-manager-sysimage-fault-sslcertificateerror/
+url: /vmware-update-manager-sysimage-fault-sslcertificateerror/
 categories:
 - '2016'
 - January
@@ -14,7 +14,9 @@ tags:
 - manager
 - SSL
 - update
-- VUM
+- VUMaliases:
+- /2016/vmware-update-manager-sysimage-fault-sslcertificateerror/
+
 ---
 
 Recently I've gone through the process of replacing the machine_ssl certificates on our vCenter and PSC nodes at work, and shortly after I went to use Update Manager and received the following error: sysimage.fault.SSLCertificateError

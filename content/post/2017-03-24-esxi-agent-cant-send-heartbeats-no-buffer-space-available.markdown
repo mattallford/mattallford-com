@@ -4,7 +4,7 @@ date: 2017-03-24 01:04:49+00:00
 draft: false
 title: 'ESXi - Agent can''t send heartbeats: No buffer space available'
 type: post
-url: /2017/esxi-agent-cant-send-heartbeats-no-buffer-space-available/
+url: /esxi-agent-cant-send-heartbeats-no-buffer-space-available/
 categories:
 - '2017'
 - March
@@ -14,7 +14,9 @@ tags:
 - esxi
 - heartbeats
 - VMware
-- vsphere
+- vspherealiases:
+- /2017/esxi-agent-cant-send-heartbeats-no-buffer-space-available/
+
 ---
 
 Quick post. The other day I saw an alert on an ESXi 6.0 host as follows:

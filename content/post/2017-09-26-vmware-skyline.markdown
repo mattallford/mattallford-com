@@ -4,7 +4,7 @@ date: 2017-09-26 10:55:36+00:00
 draft: false
 title: VMware Skyline
 type: post
-url: /2017/vmware-skyline/
+url: /vmware-skyline/
 categories:
 - '2017'
 - September
@@ -12,7 +12,9 @@ tags:
 - Proactive
 - skyline
 - support
-- VMware
+- VMwarealiases:
+- /2017/vmware-skyline/
+
 ---
 
 One of the quieter announcements from VMworld US 2017 was that of [VMware Skyline](https://www.vmware.com/support/services/skyline.html). No, not the Nissan sports car!

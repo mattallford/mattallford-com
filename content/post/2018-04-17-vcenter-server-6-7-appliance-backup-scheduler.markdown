@@ -4,7 +4,7 @@ date: 2018-04-17 14:32:34+00:00
 draft: false
 title: vCenter Server 6.7 Appliance Backup Scheduler
 type: post
-url: /2018/vcenter-server-6-7-appliance-backup-scheduler/
+url: /vcenter-server-6-7-appliance-backup-scheduler/
 categories:
 - '2018'
 - April
@@ -15,7 +15,9 @@ tags:
 - vcenter
 - VCSA
 - VMware
-- vsphere 6.7
+- vsphere 6.7aliases:
+- /2018/vcenter-server-6-7-appliance-backup-scheduler/
+
 ---
 
 This one will be a quick post, but I wanted to alert people to a new minor but useful feature that's included in the vCenter 6.7 appliance, which is the ability to schedule backups natively within the appliance management interface.

@@ -2,7 +2,7 @@
 title: "Brave Browser: Azure Portal - Something Went Wrong"
 date: 2021-01-07
 author: Matt Allford
-url: /2021/Brave-Browser-Azure-Portal-Something-Went-Wrong/
+url: /Brave-Browser-Azure-Portal-Something-Went-Wrong/
 categories:
 - '2021'
 - January
@@ -12,7 +12,9 @@ tags:
 - Azure
 - Microsoft
 - Brave
-- Browser
+- Browseraliases:
+- /2021/Brave-Browser-Azure-Portal-Something-Went-Wrong/
+
 ---
 
 **TL;DR** - *In the last few days (start of 2021), the "Shields Up" feature in the Brave web browser seems to be flagging a JSON file as a cross-site tracker when creating a resource in Azure, causing the blade to not load. To work around this, you can go "shields down" for portal.azure.com.*

@@ -5,7 +5,7 @@ draft: false
 title: VMWare SRM Array Based Replication Volume Mounted as 'snap-xxxxxxx-VolumeName'
   After Failover
 type: post
-url: /2016/srm-array-based-replication-volume-mounted-as-snap-xxxxxxx-volumename-after-failover/
+url: /srm-array-based-replication-volume-mounted-as-snap-xxxxxxx-volumename-after-failover/
 categories:
 - '2016'
 - January
@@ -17,7 +17,9 @@ tags:
 - SRM
 - Storage
 - VMware
-- Volume
+- Volumealiases:
+- /2016/srm-array-based-replication-volume-mounted-as-snap-xxxxxxx-volumename-after-failover/
+
 ---
 
 I'm going through the process of installing VMWare Site Recovery Manager (SRM) 6.1 in our production environment, which is currently running vSphere 6.0U1.

@@ -4,7 +4,7 @@ date: 2018-05-26 00:13:27+00:00
 draft: false
 title: NSX-V Controller Deployment Stuck at GRUB Boot Loader
 type: post
-url: /2018/nsx-v-controller-deployment-stuck-at-grub-boot-loader/
+url: /nsx-v-controller-deployment-stuck-at-grub-boot-loader/
 categories:
 - '2018'
 - May
@@ -14,7 +14,9 @@ tags:
 - NSX
 - NSX-V
 - VMware
-- vsphere
+- vspherealiases:
+- /2018/nsx-v-controller-deployment-stuck-at-grub-boot-loader/
+
 ---
 
 Recently I was playing around with NSX-V in the lab and getting myself more familiar with the automation options available. During the deployment of one of my environments, I couldn't get the NSX Controllers to come up without failing.

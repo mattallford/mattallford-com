@@ -4,7 +4,7 @@ date: 2016-10-25 21:57:52+00:00
 draft: false
 title: PowerCLI Functions - Get Raw Device Mappings and Set Perennial Reservations
 type: post
-url: /2016/powercli-functions-get-raw-device-mappings-and-set-perennial-reservations/
+url: /powercli-functions-get-raw-device-mappings-and-set-perennial-reservations/
 categories:
 - '2016'
 - October
@@ -14,7 +14,9 @@ tags:
 - Perennially
 - powercli
 - rdm
-- VMware
+- VMwarealiases:
+- /2016/powercli-functions-get-raw-device-mappings-and-set-perennial-reservations/
+
 ---
 
 # Introduction
