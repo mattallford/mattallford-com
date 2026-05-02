@@ -1,9 +1,9 @@
 ---
 title: "No One Knows What Their USB Cables Do"
-date: 2026-04-29
+date: 2026-05-02
 author: Matt Allford
 draft: false
-url: /2026/no-one-knows-what-their-usb-cables-do/
+url: /no-one-knows-what-their-usb-cables-can-do/
 categories:
 - '2026'
 - May
@@ -25,14 +25,14 @@ Go and pick up a random USB cable in your house, and then come back. It's ok, I'
 
 Ok, you're still here, so better yet, here's a photo of a couple of a couple of cables I found when writing this post. Both of these cables were from my desk, and I know they're from well-known brands and they would be high spec (considering today's standards).
 
-![a picture of two USB cables on a dining table with no markings or specifications on what the cables can do](/post/images/usb-cables-001.jpg)
+{{< figure src="/post/images/usb-cables-001.jpg" alt="a picture of two USB cables on a dining table with no markings or specifications on what the cables can do" link="/post/images/usb-cables-001.jpg" width="50%" align="center" >}}
 
 Based on this photo, can you tell me which cables picured are:
 - USB 3.1
 - Support 240W charging
 - Provide data transfers at 20Gbps
 
-No? Yeah, me neither. And I'm holding onto the damn things. Nowhere on these cables do they say what they're actually for.
+No? Yeah, me neither. And I'm holding onto the damn things. Nowhere on these cables do they say what they can actually do.
 
 If I plug in one end to a charger, and the other end to my phone or laptop, will it charge? Probably.
 
@@ -40,17 +40,17 @@ If I use one to connect an external hard drive to the computer I'm writing this 
 
 But I don't know how fast it will charge the device I'm trying to charge, or at what speed it will allow data to be transferred between the two devices.
 
-Just because a cable fits into a physical connection, doesn't mean it should be used for the purpose you're aiming to use it for. 
+Just because a cable fits into a physical connection, doesn't mean it should be used for the purpose you're trying to use it for. 
 
-I've liked the setup of having "USB Hub" monitors in my home office. It means I can connect all my devices to the USB ports on the monitor, and then connect a laptop with a single USB cable which transfers video and data. It also means I can easily switch between using a laptop and my decktop PC with all the same devices, but that's an aside.
+I've long enjoyed the setup of having "USB Hub" monitors in my home office. It means I can connect all my devices to the USB ports on the monitor, and then connect a laptop with a single USB cable which transfers video and data. It also means I can easily switch between using a laptop and my decktop PC with all the same devices, and they just nicely switch over to the correct machine, but that's an aside.
 
-A few years ago, I connected my laptop to the monitor using the single USB cable, and I was recording a technical video course. My microphone had a USB digital interface, which connected to the monitor. I kept getting random crackles throughout the recording, and it took me hours and hours to troubleshoot.
+A few years ago, I connected my laptop to the monitor using the single USB cable, and I was recording a technical video course. My microphone has a USB digital interface, which connects to a USB port on the monitor. I kept getting random crackles throughout the recording, and it took me hours and hours to troubleshoot. It was extremely frustrating.
 
-In the end, the problem was the USB cable I was using between the monitor and the Dell XPS laptop. I can't remember the specifics, but I must have been maxxing out the bandwidth capabilitiy of the cable, which caused the audio interface to drop in and out, very quickly. After many hours of troubleshooting, I still didn't know that cable was the culprit, but I'd pretty much ruled everything else out. I went to a local store, and bought the best cable that was available at the time. I can't actually tell you what specs that cable is, because ... well, it's not written on the cable. But it did solve my problem.
+In the end, the problem was the USB cable I was using between the monitor and the Dell XPS laptop. I can't remember the specifics, but I suspect I was maxxing out the bandwidth capabilitiy of the cable, which caused the audio interface to drop in and out very quickly. After many hours of troubleshooting, I still didn't know that cable was the culprit, but I'd pretty much ruled everything else out. I went to a local store, and bought the best cable that was available at the time. I can't actually tell you what specs that cable is, because ... well, it's not written on the cable. But it did solve my problem.
 
-Facing the same issue again today, in all honesty I'd probably still perform many minutes or even into an hour of troubleshooting, but if I had known the specs of the USB cable were quite low, that might have made its way higher on my list of things to troubleshoot.
+Facing the same issue again today, in all honesty I'd probably still perform many minutes or even into an hour of troubleshooting, but if I had known the specs of the USB cable between my laptop and monitor were low, it might have made its way higher on my list of things to troubleshoot.
 
-# Did you know there's a standard?
+# There's a standard for this stuff
 
 The USB-IF is the USB Implementers Forum, a non-profit corporation founded in 1995 by the group of companies that developed the USB specification (originally including Intel, Microsoft, Compaq, IBM, DEC, and others).
 
@@ -58,11 +58,13 @@ Among other responsibilities, they own maintaining and publishing the USB specif
 
 There's also a [USB Type-C Cable Logo Usage Guidelines](https://www.usb.org/sites/default/files/usb_type-c_cable_logo_usage_guidelines_jan26_final.pdf) document. If you scroll down a few pages, you'll see examples of the logos USB-IF have created specifically to fix the exact problem I'm talking about. Clear marks in logos like "Certified USB 240W" or "Certified USB 40Gbps" that tell you, at a glance, what the cable can actually do.
 
+{{< figure src="/post/images/usb-if-logos.png" alt="a screenshot from the USB-IF official logo documentation showing the different types of logos, clearly displaying the capabilities of the device" link="/post/images/usb-if-logos.png" width="75%" align="center" >}}
+
 So why aren't they on every cable?
 
 Well, to put one of those logos on a cable, a manufacturer has to be certified by the USB-IF. In short, that means signing a trademark license, getting a Vendor ID, submitting the product for compliance testing at an authorised lab, passing those tests, and being added to the USB-IF Integrators List. It's not a rubber stamp, and there are real costs and time involved, especially for smaller brands shipping a lot of different cables.
 
-Linus Tech Tips (LTT) recently started selling their own USB cables, and they [released a video to talk about them](https://www.youtube.com/watch?v=OT_iyvOy0Tk). Some people have thoughts around LTT, and I don't want to get into that, but from what I've read about the products they release, they are of very high quality, and are reliable. I have no reason to believe their USB cables are any different. To quote Linus in the video:
+Linus Tech Tips (LTT) recently started selling their own USB cables, and they [released a video to talk about them](https://www.youtube.com/watch?v=OT_iyvOy0Tk). I don't own any LTT products, but from what I've read about the products they release including reviews from respected folks in the industry, they are of very high quality, and are reliable. I have no reason to believe their USB cables are any different. To quote Linus in the video:
 
 > You don't need USB-IF Certification in order to sell USB compatible devices. In fact, as far as we can tell, the main benefit of it is to use their confusing branding which frankly, we feel we're better off without, especially when you factor in the cost. Certification is both expensive and time consuming, which is why even some very large brands completely skip it.
 
@@ -74,7 +76,7 @@ I truly don't understand why all companies don't just print the damn specs on th
 
 # What can you do?
 
-Well, one of the easiest options might be to keep doing what you're doing, but label the cables as you producre them. The box will usually (not always!) say the specs of the cable, and you could use something like a label maker to print and attach a tag that won't fall off. My suggestion would be to include the speed if it can do data transfer, and the Wattage it can provide for charging.
+Well, one of the easiest options might be to keep doing what you're doing, but label the cables as you procure them. The box will usually (not always!) say the specs of the cable, and you could use something like a label maker to print and attach a tag that won't fall off. My suggestion would be to include the speed if it can do data transfer, and the Wattage it can provide for charging.
 
 Optionally, it might be helpful to include which version of USB the cable is, as that can come in handy when you need to use certain versions or above for some devices.
 
@@ -88,14 +90,14 @@ Belkin do look to be prinitng the specs on most of their cables now, as you can 
 
 In fact, I recently happened to buy a few Belkin chargers and cables from our local electronics store, so I went and grabbed one that was still in the box.
 
-![a photo of a Belkin USB cable box clearly showing the specifications](/post/images/usb-cables-002.jpg)
+{{< figure src="/post/images/usb-cables-002.jpg" alt="a photo of a Belkin USB cable box clearly showing the specifications" link="/post/images/usb-cables-002.jpg" width="50%" align="center" >}}
 
-![a photo of a Belkin USB cable box showing the official USB-IF certification logo](/post/images/usb-cables-003.jpg)
+{{< figure src="/post/images/usb-cables-003.jpg" alt="a photo of a Belkin USB cable box showing the official USB-IF certification logo" link="/post/images/usb-cables-003.jpg" width="25%" align="center" >}}
 
-![a picture of a Belkin USB cable showing the logo printed on the end of the USB cable itself](/post/images/usb-cables-004.jpg)
+{{< figure src="/post/images/usb-cables-004.jpg" alt="a picture of a Belkin USB cable showing the logo printed on the end of the USB cable itself" link="/post/images/usb-cables-004.jpg" width="50%" align="center" >}}
 
 As it happens, Belkin do look to be USB-IF certified. I didn't know that before right now, where I saw the logo on the packaging. On the packaging it is quite clear it is a USB-C cable that supports 60W for charging, and doesn't support data transfer. I opened the box to have a look at the cable, and the specs are embedded on both ends of the cable, and in this instance they happen to be the USB-IF certified logos, but they don't _need_ to be.
 
-So that's my rant, but hopefully I've left you with a few ideas on how to move forward if you face this problem too. As the unofficial "tech support" for my family too, I'm encouraging them to purchase cables with clear labels on what the cable can actually do.
+So that's my rant. Hopefully I've left you with a few ideas on how to move forward if you face this problem too. As the unofficial "tech support" for my family, I'm encouraging them to purchase cables with clear labels on what the cable can actually do.
 
-I'm curious to know if you've felt this pain, and what you solution has been.
+I'm curious to know if you've felt this pain, and what your solution has been.
