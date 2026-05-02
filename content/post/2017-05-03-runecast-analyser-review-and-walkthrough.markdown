@@ -4,7 +4,7 @@ date: 2017-05-03 22:38:05+00:00
 draft: false
 title: Runecast Analyser Review and Walkthrough
 type: post
-url: /2017/runecast-analyser-review-and-walkthrough/
+url: /runecast-analyser-review-and-walkthrough/
 categories:
 - '2017'
 - May
@@ -14,6 +14,9 @@ tags:
 - Runecast Analyser
 - VMware
 - vsphere
+aliases:
+- /2017/runecast-analyser-review-and-walkthrough/
+
 ---
 
 Runecast Analyser was founded in 2014 and at a high level, is a product to provide proactive analysis for VMware environment. I've only recently been introduced to Runecast and I've had the chance to download and use it in my lab environment. I was lucky enough to meet [Ched](https://twitter.com/chedsy00) and [Stanimir](https://twitter.com/sferk) recently at the Melbourne VMUG. I thought I would take the opportunity to record a walkthrough of the product for those that may be interested to see what Runecast Analyser is all about.

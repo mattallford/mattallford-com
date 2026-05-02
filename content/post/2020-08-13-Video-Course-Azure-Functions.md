@@ -3,7 +3,7 @@ author: Matt Allford
 title: "Video Course: Azure Functions For DevOps Engineers"
 date: 2020-08-13
 draft: false
-url: /2020/Video-course-azure-functions-for-devops-engineers/
+url: /Video-course-azure-functions-for-devops-engineers/
 categories:
 - '2020'
 - August
@@ -15,6 +15,9 @@ tags:
 - CloudSkills
 - Course
 - Learning
+aliases:
+- /2020/Video-course-azure-functions-for-devops-engineers/
+
 ---
 
 # Introduction

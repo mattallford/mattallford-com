@@ -4,7 +4,7 @@ date: 2019-12-27 08:24:38+00:00
 draft: false
 title: VMware VM Clone via HTML5 Client Results in Incorrectly Configured VMDK
 type: post
-url: /2019/vmware-vm-clone-via-html5-client-results-in-incorrectly-configured-vmdk/
+url: /vmware-vm-clone-via-html5-client-results-in-incorrectly-configured-vmdk/
 categories:
 - '2019'
 - December
@@ -15,6 +15,9 @@ tags:
 - virtual machine
 - VMware
 - vsphere
+aliases:
+- /2019/vmware-vm-clone-via-html5-client-results-in-incorrectly-configured-vmdk/
+
 ---
 
 This one is just a quick post regarding an issue I came up against just before Christmas.

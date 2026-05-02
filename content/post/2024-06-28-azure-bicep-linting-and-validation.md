@@ -3,7 +3,7 @@ title: "Azure Bicep Linting and Validation"
 date: 2024-06-28
 author: Matt Allford
 draft: false
-url: /2024/azure-bicep-linting-and-validation/
+url: /azure-bicep-linting-and-validation/
 categories:
 - '2024'
 - June
@@ -13,6 +13,9 @@ tags:
 - Bicep
 - IaC
 - Infrastructure as Code
+aliases:
+- /2024/azure-bicep-linting-and-validation/
+
 ---
 
 # Azure bicep: Zero to Hero Course

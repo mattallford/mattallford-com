@@ -4,7 +4,7 @@ date: 2017-12-05 11:25:24+00:00
 draft: false
 title: 'VCSA CLI Deployment: Format Requires a Mapping'
 type: post
-url: /2017/vcsa-cli-deployment-format-requires-a-mapping/
+url: /vcsa-cli-deployment-format-requires-a-mapping/
 categories:
 - '2017'
 - December
@@ -15,6 +15,9 @@ tags:
 - VCSA
 - vcsa-deploy
 - VMware
+aliases:
+- /2017/vcsa-cli-deployment-format-requires-a-mapping/
+
 ---
 
 I've recently been doing a lot of work in my home lab, which has involved me moving from a flat /24 network (yeah, I know) to a somewhat more realistic lab environment with a Cisco SG300 switch and Ubiquiti EdgeRouterx. Due to these networking changes, as I build out the environment I've been creating a lot of VLANs and subnets between my physical ESXi host, the Cisco switch and the ERx.

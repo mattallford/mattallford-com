@@ -4,7 +4,7 @@ date: 2016-09-12 22:07:08+00:00
 draft: false
 title: Repoint vCenter Server to PSC
 type: post
-url: /2016/repoint-vcenter-server-to-psc/
+url: /repoint-vcenter-server-to-psc/
 categories:
 - '2016'
 - September
@@ -16,6 +16,9 @@ tags:
 - vcenter
 - VCSA
 - VMware
+aliases:
+- /2016/repoint-vcenter-server-to-psc/
+
 ---
 
 # Introduction

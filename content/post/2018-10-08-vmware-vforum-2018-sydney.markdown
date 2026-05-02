@@ -4,7 +4,7 @@ date: 2018-10-08 21:50:43+00:00
 draft: false
 title: VMware vForum 2018 - Sydney
 type: post
-url: /2018/vmware-vforum-2018-sydney/
+url: /vmware-vforum-2018-sydney/
 categories:
 - '2018'
 - October
@@ -15,6 +15,9 @@ tags:
 - speaking
 - vForum
 - VMware
+aliases:
+- /2018/vmware-vforum-2018-sydney/
+
 ---
 
 Next week the "ANZ" vForum event will be held once again in Sydney, Australia. The conference is returning to Sydney's Luna Park where is was held 4 years ago in 2014 (from memory to celebrate a 10 year milestone of sorts), and that event was also my first vForum. vForum is also returning as a two day event after the format was changed last year to a one day event. I'm honestly not sure what the feedback was around it being a one day event, but VMware adjusting it back to two days speaks for itself.

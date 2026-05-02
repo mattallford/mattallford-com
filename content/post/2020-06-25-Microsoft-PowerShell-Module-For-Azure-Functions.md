@@ -4,7 +4,7 @@ title: "Microsoft PowerShell Module for Azure Functions"
 date: 2020-06-25T13:50:43+10:00
 draft: false
 type: post
-url: /2020/microsoft-powershell-module-for-azure-functions/
+url: /microsoft-powershell-module-for-azure-functions/
 categories:
 - '2020'
 - June
@@ -14,6 +14,9 @@ tags:
 - Functions
 - Serverless
 - PowerShell
+aliases:
+- /2020/microsoft-powershell-module-for-azure-functions/
+
 ---
 
 

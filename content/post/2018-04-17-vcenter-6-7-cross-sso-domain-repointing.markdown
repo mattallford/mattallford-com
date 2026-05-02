@@ -4,7 +4,7 @@ date: 2018-04-17 14:10:18+00:00
 draft: false
 title: vCenter 6.7 Cross SSO Domain Repointing
 type: post
-url: /2018/vcenter-6-7-cross-sso-domain-repointing/
+url: /vcenter-6-7-cross-sso-domain-repointing/
 categories:
 - '2018'
 - April
@@ -17,6 +17,9 @@ tags:
 - VMware
 - vsphere
 - vsphere 6.7
+aliases:
+- /2018/vcenter-6-7-cross-sso-domain-repointing/
+
 ---
 
 It's back, finally! A new feature with vCenter 6.7 is the ability to repoint a vCenter Server to another Platform Services Controller node, that resides in an **entirely different vSphere SSO domain**. This functionality is huge for domain consolidation, and also domain splitting (which admittedly is a less required use case from what I've seen, but something that still can be a useful use case).

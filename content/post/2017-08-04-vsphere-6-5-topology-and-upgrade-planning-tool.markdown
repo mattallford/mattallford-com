@@ -4,7 +4,7 @@ date: 2017-08-04 12:15:21+00:00
 draft: false
 title: vSphere 6.5 Topology and Upgrade Planning Tool
 type: post
-url: /2017/vsphere-6-5-topology-and-upgrade-planning-tool/
+url: /vsphere-6-5-topology-and-upgrade-planning-tool/
 categories:
 - '2017'
 - August
@@ -13,6 +13,9 @@ tags:
 - upgrade
 - VMware
 - vsphere
+aliases:
+- /2017/vsphere-6-5-topology-and-upgrade-planning-tool/
+
 ---
 
 Overnight VMware announced a new technical resource for vSphere administrators called vSphere Central. Check out the blog post [here](https://blogs.vmware.com/vsphere/2017/08/welcome-to-vsphere-central.html).

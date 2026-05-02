@@ -4,7 +4,7 @@ date: 2019-02-27 08:10:30+00:00
 draft: false
 title: 'Product Announcement: NSX-T 2.4'
 type: post
-url: /2019/product-announcement-nsx-t-2-4/
+url: /product-announcement-nsx-t-2-4/
 categories:
 - '2019'
 - February
@@ -15,6 +15,9 @@ tags:
 - NSX-T
 - SDN
 - VMware
+aliases:
+- /2019/product-announcement-nsx-t-2-4/
+
 ---
 
 It's that time of the year again where we have a new NSX release on our hands, specifically NSX-T 2.4. I'm still really new to NSX-T, and I can tell I have _**a lot**_ to learn, but I'm hoping 2.4 is the release I'm able to really start to sink my teeth in with.

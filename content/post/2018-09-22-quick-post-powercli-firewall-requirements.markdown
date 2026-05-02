@@ -4,7 +4,7 @@ date: 2018-09-22 02:17:29+00:00
 draft: false
 title: Quick Post - PowerCLI Firewall Requirements
 type: post
-url: /2018/quick-post-powercli-firewall-requirements/
+url: /quick-post-powercli-firewall-requirements/
 categories:
 - '2018'
 - September
@@ -15,6 +15,9 @@ tags:
 - powershell
 - VMware
 - VUM
+aliases:
+- /2018/quick-post-powercli-firewall-requirements/
+
 ---
 
 Last night I was working in an environment that has a reasonably well locked down NSX distributed firewall, and I was having some issues with PowerCLI. PowerCLI 10.2 on Windows, connecting to vCenter Server 6.7, to be specific. Port 443 was allowed from the jump host to vCenter Server, but I was seeing some odd issues still.

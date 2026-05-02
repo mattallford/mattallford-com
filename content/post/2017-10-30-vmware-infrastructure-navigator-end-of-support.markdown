@@ -4,7 +4,7 @@ date: 2017-10-30 11:21:25+00:00
 draft: false
 title: VMware Infrastructure Navigator End of Support
 type: post
-url: /2017/vmware-infrastructure-navigator-end-of-support/
+url: /vmware-infrastructure-navigator-end-of-support/
 categories:
 - '2017'
 - September
@@ -14,6 +14,9 @@ tags:
 - VIN
 - VMware
 - vrops
+aliases:
+- /2017/vmware-infrastructure-navigator-end-of-support/
+
 ---
 
 Blink and you will miss it! For those that weren't aware, VMware disclosed a security vulnerability with the vCenter Server VIX API which has been patched, but this also impacted VMware Infrastructure Navigator (VIN) as it used the VIX API to build service mappings.

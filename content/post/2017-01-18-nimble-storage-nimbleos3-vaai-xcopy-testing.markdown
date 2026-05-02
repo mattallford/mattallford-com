@@ -4,7 +4,7 @@ date: 2017-01-18 13:01:57+00:00
 draft: false
 title: Nimble Storage NimbleOS3 VAAI XCOPY Testing
 type: post
-url: /2017/nimble-storage-nimbleos3-vaai-xcopy-testing/
+url: /nimble-storage-nimbleos3-vaai-xcopy-testing/
 categories:
 - '2017'
 - January
@@ -18,6 +18,9 @@ tags:
 - VAAI
 - VMware
 - xcopy
+aliases:
+- /2017/nimble-storage-nimbleos3-vaai-xcopy-testing/
+
 ---
 
 # Introduction

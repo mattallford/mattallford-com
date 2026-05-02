@@ -4,7 +4,7 @@ date: 2017-06-06 11:55:32+00:00
 draft: false
 title: vSphere Host Profile - Could not select an iSCSI HBA for the profile instance
 type: post
-url: /2017/june-2017/vsphere-host-profile-could-not-select-an-iscsi-hba-for-the-profile-instance/
+url: /vsphere-host-profile-could-not-select-an-iscsi-hba-for-the-profile-instance/
 categories:
 - June
 tags:
@@ -13,6 +13,9 @@ tags:
 - vmhba
 - VMware
 - vsphere
+aliases:
+- /2017/june-2017/vsphere-host-profile-could-not-select-an-iscsi-hba-for-the-profile-instance/
+
 ---
 
 Ahh, vSphere Host Profiles. My old friend.

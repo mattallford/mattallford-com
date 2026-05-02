@@ -4,7 +4,7 @@ date: 2016-06-13 11:28:44+00:00
 draft: false
 title: ESXi and Nimble Storage Unmap SCSI Blocks
 type: post
-url: /2016/esxi-and-nimble-storage-unmap-scsi-blocks/
+url: /esxi-and-nimble-storage-unmap-scsi-blocks/
 categories:
 - '2016'
 - June
@@ -13,6 +13,9 @@ tags:
 - reclaim
 - unmap
 - VAAI
+aliases:
+- /2016/esxi-and-nimble-storage-unmap-scsi-blocks/
+
 ---
 
 # OverView

@@ -4,7 +4,7 @@ date: 2017-05-11 22:36:08+00:00
 draft: false
 title: Melbourne VMUG UserCon 2017
 type: post
-url: /2017/melbourne-vmug-usercon-2017/
+url: /melbourne-vmug-usercon-2017/
 categories:
 - '2017'
 - May
@@ -14,6 +14,9 @@ tags:
 - usercon
 - vmug
 - vmwhere
+aliases:
+- /2017/melbourne-vmug-usercon-2017/
+
 ---
 
 Back in March, I attended the [Melbourne VMUG UserCon](https://www.vmug.com/Attend/VMUG-UserCon/Melbourne-VMUG-UserCon-2017). This is the first UserCon I attended, and damn was I impressed! From what I've heard via peers, VMUG hasn't been having the best run lately, world wide. Needless to say, the team behind both the Sydney and the Melbourne events did a fantastic job. This year consisted of a rockstar lineup of speakers not only from VMware, but also from partners and affiliates who presented fantastic breakout sessions during the day. As usual, [Alastair ](https://twitter.com/DemitasseNZ)and [Brett ](https://twitter.com/BrettJohnson008)were in full swing with the vBrownBag recordings at the event, unfortunately I left it too late to be able to submit a small talk for vBrownBag.

@@ -3,7 +3,7 @@ title: "Azure Bicep Parameter Files"
 date: 2023-10-29
 author: Matt Allford
 draft: false
-url: /2023/azure-bicep-parameter-files/
+url: /azure-bicep-parameter-files/
 categories:
 - '2023'
 - October
@@ -13,6 +13,9 @@ tags:
 - Bicep
 - IaC
 - Infrastructure as Code
+aliases:
+- /2023/azure-bicep-parameter-files/
+
 ---
 
 # Azure bicep: Zero to Hero Course

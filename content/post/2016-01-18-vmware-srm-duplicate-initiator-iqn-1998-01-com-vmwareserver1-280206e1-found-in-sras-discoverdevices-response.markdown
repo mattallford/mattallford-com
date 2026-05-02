@@ -5,7 +5,7 @@ draft: false
 title: VMWare SRM Duplicate initiator 'iqn.1998-01.com.vmware:Server1-280206e1' found
   in SRA's 'discoverDevices' response.
 type: post
-url: /2016/vmware-srm-duplicate-initiator-iqn-1998-01-com-vmwareserver1-280206e1-found-in-sras-discoverdevices-response/
+url: /vmware-srm-duplicate-initiator-iqn-1998-01-com-vmwareserver1-280206e1-found-in-sras-discoverdevices-response/
 tags:
 - Initiator
 - Nimble
@@ -14,6 +14,9 @@ tags:
 - SRM
 - Storage
 - VMware
+aliases:
+- /2016/vmware-srm-duplicate-initiator-iqn-1998-01-com-vmwareserver1-280206e1-found-in-sras-discoverdevices-response/
+
 ---
 
 When setting up VMWare SRM 6.1 with array based replication, I was seeing an error after adding the array managers into SRM. The error was **Duplicate initiator 'iqn.1998-01.com.vmware:Server1-280206e1' found in SRA's 'discoverDevices' response.**

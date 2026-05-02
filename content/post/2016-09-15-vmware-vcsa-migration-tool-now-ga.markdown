@@ -4,7 +4,7 @@ date: 2016-09-15 23:15:09+00:00
 draft: false
 title: VMware VCSA Migration Tool Now GA
 type: post
-url: /2016/vmware-vcsa-migration-tool-now-ga/
+url: /vmware-vcsa-migration-tool-now-ga/
 categories:
 - '2016'
 - September
@@ -14,6 +14,9 @@ tags:
 - vcenter
 - VCSA
 - VMware
+aliases:
+- /2016/vmware-vcsa-migration-tool-now-ga/
+
 ---
 
 A long last, VMware have made a tool available and supported to migrate from a Windows installation of vSphere 5.5 across to the vCenter Server Appliance (VCSA) 6.0U2. VMware gave us a teaser with a fling in 2015, but this was taken down and there have been hints dropped via Social Media and most recently some good sessions for the migration tool at VMworld 2016.

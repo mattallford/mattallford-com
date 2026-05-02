@@ -4,7 +4,7 @@ date: 2017-04-07 12:04:57+00:00
 draft: false
 title: Additions To vGhetto Automated vSphere Lab Deployment
 type: post
-url: /2017/additions-to-vghetto-automated-vsphere-lab-deployment/
+url: /additions-to-vghetto-automated-vsphere-lab-deployment/
 categories:
 - '2017'
 - April
@@ -15,6 +15,9 @@ tags:
 - vghetto
 - VMware
 - vsphere
+aliases:
+- /2017/additions-to-vghetto-automated-vsphere-lab-deployment/
+
 ---
 
 So last week I received a new lab server that is going to be housed at home. It is a Dell T430 with 128GB ram, which is exactly what I was after as I want to get right back into the lab work, but I didn't want a heap of gear and network requirements. NestedESXi has worked reasonably well in the past few vSphere releases and there's not much that can't be simulated within a nested environment for the purposes of learning or testing.

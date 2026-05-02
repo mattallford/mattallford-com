@@ -4,7 +4,7 @@ date: 2017-01-12 11:48:58+00:00
 draft: false
 title: vSphere 6.5 - GUI VCSA Embedded Deployment Walkthrough
 type: post
-url: /2017/vsphere-6-5-gui-vcsa-embedded-deployment-walkthrough/
+url: /vsphere-6-5-gui-vcsa-embedded-deployment-walkthrough/
 categories:
 - '2017'
 - January
@@ -16,6 +16,9 @@ tags:
 - vsphere
 - vsphere 6.5
 - vsphere65
+aliases:
+- /2017/vsphere-6-5-gui-vcsa-embedded-deployment-walkthrough/
+
 ---
 
 The post below will walk through the deployment of an embedded vCenter Server Appliance 6.5 using the GUI installer, where the PSC and VC roles are installed on the same servers. This deployment model is perfect for smaller environment where Enhanced Linked Mode is not required.

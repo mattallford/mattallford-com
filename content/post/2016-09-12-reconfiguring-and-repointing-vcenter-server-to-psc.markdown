@@ -4,7 +4,7 @@ date: 2016-09-12 22:05:48+00:00
 draft: false
 title: Reconfiguring and Repointing vCenter Server to PSC
 type: post
-url: /2016/reconfiguring-and-repointing-vcenter-server-to-psc/
+url: /reconfiguring-and-repointing-vcenter-server-to-psc/
 categories:
 - '2016'
 - September
@@ -17,6 +17,9 @@ tags:
 - vmsso-util
 - VMware
 - vsphere
+aliases:
+- /2016/reconfiguring-and-repointing-vcenter-server-to-psc/
+
 ---
 
 # Introduction

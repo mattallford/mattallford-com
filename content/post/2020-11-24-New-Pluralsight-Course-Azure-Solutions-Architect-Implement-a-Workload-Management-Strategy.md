@@ -3,7 +3,7 @@ author: Matt Allford
 title: "New Pluralsight Course: Microsoft Azure Solutions Architect - Implement a Workload Management Strategy"
 date: 2020-11-26
 draft: false
-url: /2020/New-Pluralsight-Course-Microsoft-Azure-Solutions-Architect-Implement-a-Workload-Management-Strategy/
+url: /New-Pluralsight-Course-Microsoft-Azure-Solutions-Architect-Implement-a-Workload-Management-Strategy/
 categories:
 - '2020'
 - November
@@ -18,6 +18,9 @@ tags:
 - Certification
 - Course
 - Learning
+aliases:
+- /2020/New-Pluralsight-Course-Microsoft-Azure-Solutions-Architect-Implement-a-Workload-Management-Strategy/
+
 ---
 
 I'm really happy to anounce that another course I've created for Pluralsight has gone live in their library today. This one has a wordy title, being [Microsoft Azure Solutions Architect: Implement a Workload Management Strategy](https://app.pluralsight.com/library/courses/microsoft-azure-solutions-architect-implement-workload-management-strategy/table-of-contents), and this is a part of the Azure AZ 303 Solutions Architect focused exam path.

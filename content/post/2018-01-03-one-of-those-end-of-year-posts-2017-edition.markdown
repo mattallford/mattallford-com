@@ -4,10 +4,13 @@ date: 2018-01-03 11:50:27+00:00
 draft: false
 title: One of Those End of Year Posts - 2017 Edition
 type: post
-url: /2018/one-of-those-end-of-year-posts-2017-edition/
+url: /one-of-those-end-of-year-posts-2017-edition/
 categories:
 - '2018'
 - January
+aliases:
+- /2018/one-of-those-end-of-year-posts-2017-edition/
+
 ---
 
 Yep, it's that time of year where it seems sensible to reflect on what's happened, and maybe set some goals for the year to come. With that said, don't forget to keep reflecting during the year, and ground yourself to see where you are at, what you want to work on and readjust yourself if you aren't going in the direction you hoped for. Or maybe a change in direction wasn't what you planned, but is naturally the course you have taken due to a series of events.

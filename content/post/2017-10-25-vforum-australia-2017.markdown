@@ -4,7 +4,7 @@ date: 2017-10-25 11:04:55+00:00
 draft: false
 title: vForum Australia 2017
 type: post
-url: /2017/vforum-australia-2017/
+url: /vforum-australia-2017/
 categories:
 - '2017'
 - October
@@ -12,6 +12,9 @@ tags:
 - blogtober
 - vForum
 - VMware
+aliases:
+- /2017/vforum-australia-2017/
+
 ---
 
 And here we are, at the end of October. Before I get in to it, I signed up for [Blogtober ](http://tcwd.net/vblog/2017/09/06/blogtober-virtualization-edition/)a few weeks ago, and this is shamefully my first post for Blogtober, and I'm writing this on the 25th of the month. Let's see if I can get 5 posts out by the end of the month!

@@ -4,7 +4,7 @@ date: 2020-04-01 20:40:43+00:00
 draft: false
 title: Update Manager Initiated Reboot Doesn't Trigger Hardware Server Reset
 type: post
-url: /2020/update-manager-initiated-reboot-doesnt-trigger-hardware-server-reset/
+url: /update-manager-initiated-reboot-doesnt-trigger-hardware-server-reset/
 categories:
 - '2020'
 - March
@@ -16,6 +16,9 @@ tags:
 - quickboot
 - Update Manager
 - VUM
+aliases:
+- /2020/update-manager-initiated-reboot-doesnt-trigger-hardware-server-reset/
+
 ---
 
 This might not be a new one to a lot of folk, but it certainly was to me!

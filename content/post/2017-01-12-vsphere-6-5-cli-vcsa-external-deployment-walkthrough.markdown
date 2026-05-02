@@ -4,7 +4,7 @@ date: 2017-01-12 11:43:59+00:00
 draft: false
 title: vSphere 6.5 – CLI VCSA External Deployment Walkthrough
 type: post
-url: /2017/vsphere-6-5-cli-vcsa-external-deployment-walkthrough/
+url: /vsphere-6-5-cli-vcsa-external-deployment-walkthrough/
 categories:
 - '2017'
 - January
@@ -18,6 +18,9 @@ tags:
 - vsphere
 - vsphere 6.5
 - vsphere65
+aliases:
+- /2017/vsphere-6-5-cli-vcsa-external-deployment-walkthrough/
+
 ---
 
 The post below will walk through the deployment of an external vCenter Server Appliance (VCSA) 6.5 node and Platform Services Controller (PSC) to a target ESXi server using the command line interface (CLI) deployment method.

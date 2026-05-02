@@ -4,7 +4,7 @@ date: 2017-02-06 11:24:46+00:00
 draft: false
 title: vCenter Support Assistant 6.5 Deployment
 type: post
-url: /2017/vcenter-support-assistant-6-5-deployment/
+url: /vcenter-support-assistant-6-5-deployment/
 categories:
 - '2017'
 - February
@@ -15,6 +15,9 @@ tags:
 - VMware
 - vsphere
 - vsphere 6.5
+aliases:
+- /2017/vcenter-support-assistant-6-5-deployment/
+
 ---
 
 # Introduction

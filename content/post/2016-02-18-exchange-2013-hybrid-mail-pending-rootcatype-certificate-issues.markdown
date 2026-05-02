@@ -4,7 +4,7 @@ date: 2016-02-18 21:40:27+00:00
 draft: false
 title: Exchange 2013 Hybrid Mail 'Pending' - RootCAType Certificate Issues
 type: post
-url: /2016/february/exchange-2013-hybrid-mail-pending-rootcatype-certificate-issues/
+url: /exchange-2013-hybrid-mail-pending-rootcatype-certificate-issues/
 categories:
 - February
 tags:
@@ -15,6 +15,9 @@ tags:
 - mail flow
 - Office365
 - rootca
+aliases:
+- /2016/february/exchange-2013-hybrid-mail-pending-rootcatype-certificate-issues/
+
 ---
 
 I manage an Exchange 2013 deployment at work which is configured in Hybrid with Office365. Recently we had to change our SSL certificate that was being used for both TLS for the hybrid connection and also for our client facing DNS names. Due to changes with our 3rd party SSL certificate provider, this was a new SSL certificate installation rather than a renewal.

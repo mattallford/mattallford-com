@@ -4,7 +4,7 @@ date: 2019-05-09 10:54:33+00:00
 draft: false
 title: Cohesity 6.2 - Office365 Exchange Online Protection
 type: post
-url: /2019/cohesity-6-2-office365-exchange-online-protection/
+url: /cohesity-6-2-office365-exchange-online-protection/
 categories:
 - '2019'
 - May
@@ -15,6 +15,9 @@ tags:
 - Office365
 - recovery
 - Restore
+aliases:
+- /2019/cohesity-6-2-office365-exchange-online-protection/
+
 ---
 
 # Introduction

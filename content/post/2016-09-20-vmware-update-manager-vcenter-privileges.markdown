@@ -4,7 +4,7 @@ date: 2016-09-20 23:39:39+00:00
 draft: false
 title: VMware Update Manager vCenter Privileges
 type: post
-url: /2016/vmware-update-manager-vcenter-privileges/
+url: /vmware-update-manager-vcenter-privileges/
 categories:
 - '2016'
 - September
@@ -13,6 +13,9 @@ tags:
 - vcenter
 - vsphere
 - VUM
+aliases:
+- /2016/vmware-update-manager-vcenter-privileges/
+
 ---
 
 I've always tried to use and recommend using the 'least privileges' model when designing and implementing systems. But we've all been there, when the same service account is being used to connect everything to vCenter, and said account has been assigned the full administrator role and propagated within vCenter.

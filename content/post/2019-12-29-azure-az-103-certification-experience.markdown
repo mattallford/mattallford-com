@@ -4,7 +4,7 @@ date: 2019-12-29 04:20:46+00:00
 draft: false
 title: Azure AZ-103 Certification Experience
 type: post
-url: /2019/azure-az-103-certification-experience/
+url: /azure-az-103-certification-experience/
 categories:
 - '2019'
 - December
@@ -16,6 +16,9 @@ tags:
 - learning
 - microsoft
 - study
+aliases:
+- /2019/azure-az-103-certification-experience/
+
 ---
 
 # Introduction

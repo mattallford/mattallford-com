@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  HUGO_VERSION: "0.79.1"
+  HUGO_VERSION: "0.161.1"
   # OCTOPUS_URL: ${{ secrets.OCTOPUS_URL }}
   # OCTOPUS_API_KEY: ${{ secrets.OCTOPUS_API_KEY }}
   OCTOPUS_SPACE: "Default"
@@ -31,6 +31,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          submodules: true
 
       - name: Setup GitVersion
         uses: gittools/actions/gitversion/setup@v3.2.0
@@ -45,6 +46,7 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
 
       - name: Build site
         run: |

@@ -4,7 +4,7 @@ date: 2017-03-03 10:48:14+00:00
 draft: false
 title: 'VMware Fling: vSphere Compatibility Predictor'
 type: post
-url: /2017/vmware-fling-vsphere-compatibility-predictor/
+url: /vmware-fling-vsphere-compatibility-predictor/
 categories:
 - '2017'
 - March
@@ -14,6 +14,9 @@ tags:
 - upgrade
 - VMware
 - vsphere
+aliases:
+- /2017/vmware-fling-vsphere-compatibility-predictor/
+
 ---
 
 [toc]

@@ -4,7 +4,7 @@ date: 2018-05-28 10:02:18+00:00
 draft: false
 title: Vembu Webinar - Why you need Multiple Recovery Options
 type: post
-url: /2018/vembu-webinar-why-you-need-multiple-recovery-options/
+url: /vembu-webinar-why-you-need-multiple-recovery-options/
 categories:
 - '2018'
 - May
@@ -13,6 +13,9 @@ tags:
 - data protection
 - recovery
 - Vembu
+aliases:
+- /2018/vembu-webinar-why-you-need-multiple-recovery-options/
+
 ---
 
 _**Disclaimer:**_ _Vembu are a sponsor of Virtual Tassie and this post is a sponsored blog post. This post has been written in my own words and is not a direct redistribution of a blog post written by Vembu. With that said, I am new to the Vembu suite and have not had time since taking them on as a sponsor to use all aspects of their solution, so some of the content above has been comprised using information from Vembu's website._

@@ -4,7 +4,7 @@ date: 2017-10-27 10:34:22+00:00
 draft: false
 title: Lenovo X1 Carbon - Thoughts after 6 Months
 type: post
-url: /2017/lenovo-x1-carbon-thoughts-after-6-months/
+url: /lenovo-x1-carbon-thoughts-after-6-months/
 categories:
 - '2017'
 - October
@@ -12,6 +12,9 @@ tags:
 - laptop
 - lenovo
 - x1 carbon
+aliases:
+- /2017/lenovo-x1-carbon-thoughts-after-6-months/
+
 ---
 
 Earlier this year, I bought a new laptop which is my daily workhorse. I don't own any other computers or tablets. I decided to put my ramblings in to a post below. This is not a technical review of the laptop or going in to benchmarks or different customisations, there's plenty of that available online in "formal" reviews.

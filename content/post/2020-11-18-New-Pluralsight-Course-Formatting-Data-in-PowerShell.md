@@ -3,7 +3,7 @@ author: Matt Allford
 title: "New Pluralsight Course: Formatting Data in PowerShell"
 date: 2020-11-17
 draft: false
-url: /2020/New-Pluralsight-Course-Formatting-Data-in-PowerShell/
+url: /New-Pluralsight-Course-Formatting-Data-in-PowerShell/
 categories:
 - '2020'
 - November
@@ -14,6 +14,9 @@ tags:
 - Pluralsight
 - Course
 - Learning
+aliases:
+- /2020/New-Pluralsight-Course-Formatting-Data-in-PowerShell/
+
 ---
 
 # New Pluralsight Course: Formatting Data in PowerShell

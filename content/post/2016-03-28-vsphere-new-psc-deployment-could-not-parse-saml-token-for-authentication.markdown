@@ -4,7 +4,7 @@ date: 2016-03-28 11:56:37+00:00
 draft: false
 title: vSphere New PSC Deployment - Could Not Parse SAML Token For Authentication
 type: post
-url: /2016/march/vsphere-new-psc-deployment-could-not-parse-saml-token-for-authentication/
+url: /vsphere-new-psc-deployment-could-not-parse-saml-token-for-authentication/
 categories:
 - March
 tags:
@@ -16,6 +16,9 @@ tags:
 - vcenter
 - VMware
 - vsphere
+aliases:
+- /2016/march/vsphere-new-psc-deployment-could-not-parse-saml-token-for-authentication/
+
 ---
 
 In my lab, I deployed vCenter using the appliance as an embedded node using vCenter 6.0.0b. I purposely deployed this build, as an embedded deployment for two reasons:

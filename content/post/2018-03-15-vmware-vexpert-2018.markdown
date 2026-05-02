@@ -4,10 +4,13 @@ date: 2018-03-15 04:50:35+00:00
 draft: false
 title: VMware vExpert 2018
 type: post
-url: /2018/vmware-vexpert-2018/
+url: /vmware-vexpert-2018/
 categories:
 - '2018'
 - March
+aliases:
+- /2018/vmware-vexpert-2018/
+
 ---
 
 On Friday the 9th of March (morning of Saturday the 10th in Australia), VMware announced the results of the vExpert 2018 award, which is given to those who have performed various VMware advocacy related activities in the 2017 calendar year. I'm happy to say that VMware has deemed me worthy to be a vExpert again, which will mean this is my second year in the program. It's a great program to be a part of with several perks, one of the most valuable (yet sometimes time consuming!) being the vExpert Slack channel where you see and can be a part of excellent conversations.

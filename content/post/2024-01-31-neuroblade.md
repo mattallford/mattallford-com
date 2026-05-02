@@ -3,7 +3,7 @@ title: "CFD19 - Accelerating Data Analytics with NeuroBlade"
 date: 2024-01-31
 author: Matt Allford
 draft: false
-url: /2024/cfd-19-neuroblade/
+url: /cfd-19-neuroblade/
 categories:
 - '2024'
 - February
@@ -12,6 +12,9 @@ tags:
 - CFD
 - Cloud Field Day
 - Tech Field Day
+aliases:
+- /2024/cfd-19-neuroblade/
+
 ---
 
 Cloud Field Day #19 kicked off with NeuroBlade, and I'm glad I had a coffee before hand, as data analytics is not my expertise, but I learned a lot in the session thanks to NeuroBlade and other delegates.

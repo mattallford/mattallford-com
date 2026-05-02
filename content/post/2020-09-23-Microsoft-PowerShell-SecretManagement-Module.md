@@ -3,7 +3,7 @@ author: Matt Allford
 title: "Microsoft PowerShell SecretManagement Module"
 date: 2020-09-23
 draft: false
-url: /2020/Microsoft-PowerShell-SecretManagement-Module/
+url: /Microsoft-PowerShell-SecretManagement-Module/
 categories:
 - '2020'
 - September
@@ -13,6 +13,9 @@ tags:
 - Secrets
 - Credentials
 - Microsoft
+aliases:
+- /2020/Microsoft-PowerShell-SecretManagement-Module/
+
 ---
 
 First things first, if you prefer to consume video content, the same content that is in this blog post is in the video below. If you prefer to read, please skip past the video and read on!

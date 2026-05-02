@@ -4,7 +4,7 @@ title: "VMware VMUG Usercon Australia 2020"
 date: 2020-07-14
 draft: false
 type: post
-url: /2020/VMware-VMUG-Usercon-Australia-2020/
+url: /VMware-VMUG-Usercon-Australia-2020/
 categories:
 - '2020'
 - July
@@ -14,6 +14,9 @@ tags:
 - Usercon
 - Community
 - vexpert
+aliases:
+- /2020/VMware-VMUG-Usercon-Australia-2020/
+
 ---
 
 

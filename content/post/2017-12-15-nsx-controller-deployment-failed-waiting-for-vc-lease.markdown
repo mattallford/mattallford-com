@@ -4,7 +4,7 @@ date: 2017-12-15 23:17:07+00:00
 draft: false
 title: 'NSX Controller Deployment Failed: Waiting for VC Lease'
 type: post
-url: /2017/nsx-controller-deployment-failed-waiting-for-vc-lease/
+url: /nsx-controller-deployment-failed-waiting-for-vc-lease/
 categories:
 - '2017'
 - December
@@ -12,6 +12,9 @@ tags:
 - controller
 - NSX
 - VMware
+aliases:
+- /2017/nsx-controller-deployment-failed-waiting-for-vc-lease/
+
 ---
 
 I was recently rolling out the base install of VMware NSX in my lab, where I ran in to a controller deployment issue. The lab is running NestedESXi, and I have two 'sites' that are nested, each with 3 ESXi hosts in a vSAN cluster. vCenter, PSC and NSX Manager / controllers are then deployed on to the nested ESXi hosts, so the storage is on the nested vSAN datastores.

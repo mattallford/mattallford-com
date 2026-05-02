@@ -4,7 +4,7 @@ date: 2018-10-18 12:48:54+00:00
 draft: false
 title: vCenter 6.7 Update 1 - Converge to embedded failed!
 type: post
-url: /2018/vcenter-6-7-update-1-converge-to-embedded-failed/
+url: /vcenter-6-7-update-1-converge-to-embedded-failed/
 categories:
 - '2018'
 - October
@@ -14,6 +14,9 @@ tags:
 - vcenter
 - VCSA
 - vcsa-util
+aliases:
+- /2018/vcenter-6-7-update-1-converge-to-embedded-failed/
+
 ---
 
 **Update 27th October 2018**: I was meant to provide this update last weekend, but it has been a hectic week. Within a few hours of posting this issue, a few people at VMware reached out to me to understand more about my configuration, asked me to upload the logs and a few of the smart guys and gals at VMware had been able to reproduce the issue. As it turns out, the key in the APPLMGMT_PASSWORD vecs store is used when a file based backup of the VCSA is scheduled. I believe a KB is on the way, but the workaround is to delete the VCSA backup schedule, perform the converge and you can then re-enable the schedule after the converge is complete.
