@@ -63,7 +63,7 @@ We're still pushing forward with the project and have some great enhancements to
 
 Secondly, our good friend [Mark Ukotic](https://twitter.com/originaluko) entered in to the VMworld Hackathon with an idea of embedding a PowerCLI console in to the vCenter HTML5 user interface. I turned up a bit later that evening to catch the tail end of testing and of course to sport my "We use resource pools as folders" shirt:
 
-{{< tweet 1034318247368187904 >}}
+
 
 Not only did Mark rip through a presentation of the project in 2 minutes with [Anthony Spiteri](https://twitter.com/anthonyspiteri) hilariously giving him a second-by-second countdown of how long he has left in his ear, but the judges voted and Mark's project was selected as the winner for the hackathon! Because of the win we went on to celebrate at Eye Candy where we ran in to the great guys over at the [Virtually Speaking podcast](https://twitter.com/virtspeaking), who invited us to pop by the next day to talk about VMworld and the Hackathon.
 
@@ -71,7 +71,7 @@ Not only did Mark rip through a presentation of the project in 2 minutes with [A
 
 Mark and I managed to find some time before VMworld kicked off to take a chopper out to the Grand Canyon and stop by Eagle Point to hear some history about the Canyon and get some breathtaking views. This experience was much better than I thought it was going to be and it was awesome to spend the day with Mark.
 
-{{< tweet 1033465764655718400 >}}
+
 
 
 # VMUG UserCon

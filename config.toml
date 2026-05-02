@@ -1,91 +1,82 @@
 baseurl = "https://www.mattallford.com"
 DefaultContentLanguage = "en"
-#DefaultContentLanguage = "ja"
 title = "Matt Allford"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-disqusShortname = "mattallford"
-googleAnalytics = "UA-163892167-2"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
 
-[Params]
-  homeTitle = " " # Set a different text for the header on the home page
-  #subtitle = "Byte sized snippets"
-  mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+[services.disqus]
+  shortname = "mattallford"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  mainSections = ["post", "posts"]
+  author = "Matt Allford"
   dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
+  description = "Writing about Azure, infrastructure, and technology."
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = false
   comments = true
-  readingTime = true
-  wordCount = false
-  useHLJS = true
-  socialShare = true
-  delayDisqus = false
-  showRelatedPosts = true
-  hideAuthor = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
- [[Params.bigimg]]
-  src = "img/headerbackground-copy.png"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+  [params.homeInfoParams]
+    Title = ""
+    Content = """
+Hi, I'm Matt. A technologist, content creator, and generally curious person. If you've \
+stumbled across this site, it's where I write some ramblings, usually about \
+technology, or technology adjacent. Check out the [About](/about/) page for more information, \
+and please feel free to connect with me on one of the social platforms linked below.
 
-[Author]
-  name = "Matthew Allford"
-  website = "www.mattallford.com"
-#  email = "youremail@domain.com"
-#  facebook = "username"
-  github = "mattallford"
-#  gitlab = "username"
-#  bitbucket = "username"
-  twitter = "mattallford"
-#  reddit = "username"
-  linkedin = "mattallford"
-#  xing = "username"
-#  stackoverflow = "users/XXXXXXX/username"
-#  snapchat = "username"
-#  instagram = "username"
-  youtube = "channel/UCWPrPzVnLa9ma7axTJgUX0Q"
-#  soundcloud = "username"
-#  spotify = "username"
-#  bandcamp = "username"
-#  itchio = "username"
-#  vk = "username"
-#  paypal = "username"
-#  telegram = "username"
-#  500px = "username"
-#  codepen = "username"
-  mastodon = "mastodon.social/@mattallford"
-#  kaggle = "username"
-#  weibo = "username"
-#  slack = "username"
+Thanks for stopping by!
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/mattallford"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/mattallford"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/mattallford"
+
+  [[params.socialIcons]]
+    name = "youtube"
+    url = "https://www.youtube.com/channel/UCWPrPzVnLa9ma7axTJgUX0Q"
+
+  [[params.socialIcons]]
+    name = "mastodon"
+    url = "https://mastodon.social/@mattallford"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
 
 [[menu.main]]
-    name = "Content Portfolio"
-    url = "/content-portfolio/"
-    weight = 2
+  name = "Posts"
+  url = "/post/"
+  weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
+  name = "Content Portfolio"
+  url = "/content-portfolio/"
+  weight = 2
 
-#[[menu.main]]
-#    parent = "sponsors"
-#    name = "Vembu"
-#    url = "sponsors/vembu"
-#    weight = 1
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 4

@@ -28,9 +28,9 @@ NSX Manager would deploy the controller VM, but it sat in a "deploying" state fo
 
 I double checked all of the usual suspects - IP Pools, DNS, NTP, so on a so forth. I put some feelers out on twitter to see if anyone else had come across this before, both [Bayu Wibowo](https://twitter.com/bayupw) and [Mike Da Costa](https://twitter.com/vswitchzero) came back with a few ideas which reminded me I hadn't checked out the underlying storage platform, which in this case was nested vSAN.
 
-{{< tweet 996526109008146433 >}}
 
-{{< tweet 996722983623380999 >}}
+
+
 
 
 I checked out some of the basic stats in the web client of the vSAN datastore, and indeed there was extremely high latency during the periods I was attempting to deploy the controllers:
