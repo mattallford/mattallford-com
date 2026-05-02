@@ -9,6 +9,9 @@ buildFuture = false
 [services.disqus]
   shortname = "mattallford"
 
+[minify]
+  disableJSON = true
+
 [markup.goldmark.renderer]
   unsafe = true
 
