@@ -86,7 +86,7 @@ I've mentioned LTT earlier in this thread, and if you look at the cables they re
 
 Belkin do look to be prinitng the specs on most of their cables now, as you can see in [this example](https://www.belkin.com/au/p/usb4-cable-240w-20gbps/INZ004bt2MBK.html).
 
-In fact, I recently happened to buy a few Belkin charges and cables from our local electronics store, so I went and grabbed one that was still in the box.
+In fact, I recently happened to buy a few Belkin chargers and cables from our local electronics store, so I went and grabbed one that was still in the box.
 
 ![a photo of a Belkin USB cable box clearly showing the specifications](/post/images/usb-cables-002.jpg)
 
