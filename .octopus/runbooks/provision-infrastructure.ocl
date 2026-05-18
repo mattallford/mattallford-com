@@ -39,4 +39,31 @@ process {
             }
         }
     }
+
+    step "slack-detailed-notification" {
+        condition = "Failure"
+        name = "Slack - Detailed Notification"
+
+        action {
+            properties = {
+                Channel = "octopus-webhook"
+                DeploymentInfoText = "#{Octopus.Project.Name} release #{Octopus.Release.Number} to #{Octopus.Environment.Name} (#{Octopus.Machine.Name})"
+                HookUrl = "#{Slack.Webhook}"
+                IconUrl = "https://octopus.com/content/resources/favicon.png"
+                IncludeErrorMessageOnFailure = "false"
+                IncludeFieldEnvironment = "false"
+                IncludeFieldMachine = "false"
+                IncludeFieldRelease = "false"
+                IncludeFieldReleaseNotes = "false"
+                IncludeFieldTenant = "false"
+                IncludeFieldUsername = "false"
+                IncludeLinkOnFailure = "false"
+                Octopus.Action.Template.Id = "ActionTemplates-81"
+                Octopus.Action.Template.Version = "12"
+                OctopusBaseUrl = "https://mattallford.octopus.app"
+                Username = "Octopus Deploy"
+            }
+            worker_pool = "hosted-ubuntu"
+        }
+    }
 }
