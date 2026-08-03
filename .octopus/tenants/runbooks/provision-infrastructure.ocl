@@ -1,0 +1,69 @@
+name = "Provision Infrastructure"
+default_guided_failure_mode = "EnvironmentDefault"
+description = ""
+
+connectivity_policy {
+    allow_deployments_to_no_targets = true
+}
+
+run_retention_policy {
+    type = "Default"
+}
+
+process {
+    step "terraform-apply" {
+        name = "Terraform Apply"
+
+        action {
+            action_type = "Octopus.TerraformApply"
+            properties = {
+                Octopus.Action.AzureAccount.Variable = "Microsite.Azure.Account"
+                Octopus.Action.GitRepository.Source = "Project"
+                Octopus.Action.GoogleCloud.ImpersonateServiceAccount = "False"
+                Octopus.Action.GoogleCloud.UseVMServiceAccount = "True"
+                Octopus.Action.Script.ScriptSource = "GitRepository"
+                Octopus.Action.Terraform.AllowPluginDownloads = "True"
+                Octopus.Action.Terraform.AzureAccount = "True"
+                Octopus.Action.Terraform.GoogleCloudAccount = "False"
+                Octopus.Action.Terraform.ManagedAccount = "None"
+                Octopus.Action.Terraform.PlanJsonOutput = "False"
+                Octopus.Action.Terraform.RunAutomaticFileSubstitution = "True"
+                Octopus.Action.Terraform.TemplateDirectory = "terraform"
+                OctopusUseBundledTooling = "False"
+            }
+            worker_pool = "hosted-ubuntu"
+
+            container {
+                feed = "dockerhub"
+                image = "octopuslabs/terraform-workertools"
+            }
+        }
+    }
+
+    step "slack-detailed-notification" {
+        condition = "Failure"
+        name = "Slack - Detailed Notification"
+
+        action {
+            properties = {
+                Channel = "octopus-webhook"
+                DeploymentInfoText = "#{Octopus.Project.Name} release #{Octopus.Release.Number} to #{Octopus.Environment.Name} (#{Octopus.Machine.Name})"
+                HookUrl = "#{Slack.Webhook}"
+                IconUrl = "https://octopus.com/content/resources/favicon.png"
+                IncludeErrorMessageOnFailure = "false"
+                IncludeFieldEnvironment = "false"
+                IncludeFieldMachine = "false"
+                IncludeFieldRelease = "false"
+                IncludeFieldReleaseNotes = "false"
+                IncludeFieldTenant = "false"
+                IncludeFieldUsername = "false"
+                IncludeLinkOnFailure = "false"
+                Octopus.Action.Template.Id = "ActionTemplates-81"
+                Octopus.Action.Template.Version = "12"
+                OctopusBaseUrl = "https://mattallford.octopus.app"
+                Username = "Octopus Deploy"
+            }
+            worker_pool = "hosted-ubuntu"
+        }
+    }
+}
