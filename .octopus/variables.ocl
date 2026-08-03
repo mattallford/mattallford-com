@@ -1,0 +1,9 @@
+variable "Microsite.Azure.StorageAccountName" {
+    value "stmablog#{Octopus.Environment.Name | ToLower}" {
+        environment = ["ephemeral-environments"]
+    }
+
+    value "mattallfordblog" {
+        environment = ["production"]
+    }
+}
