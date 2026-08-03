@@ -1,0 +1,94 @@
+step "get-static-site-url" {
+    name = "Get Static Site URL"
+
+    action {
+        action_type = "Octopus.AzurePowerShell"
+        properties = {
+            Octopus.Action.Azure.AccountId = "#{Microsite.Azure.Account}"
+            Octopus.Action.GitRepository.Source = "Project"
+            Octopus.Action.Script.ScriptFileName = "scripts/Get-StaticSiteUrl.ps1"
+            Octopus.Action.Script.ScriptParameters = "-StorageAccountName #{Microsite.Azure.StorageAccountName}"
+            Octopus.Action.Script.ScriptSource = "GitRepository"
+            OctopusUseBundledTooling = "False"
+        }
+        worker_pool = "hosted-ubuntu"
+
+        container {
+            feed = "dockerhub"
+            image = "octopuslabs/azure-workertools:2.83.0"
+        }
+    }
+}
+
+step "upload-site-to-azure-blob" {
+    name = "Upload site to Azure Blob"
+
+    action {
+        action_type = "Octopus.AzurePowerShell"
+        properties = {
+            Octopus.Action.Azure.AccountId = "#{Microsite.Azure.Account}"
+            Octopus.Action.GitRepository.Source = "Project"
+            Octopus.Action.Script.ScriptFileName = "scripts/Deploy-Microsite.ps1"
+            Octopus.Action.Script.ScriptParameters = "-StorageAccountName #{Microsite.Azure.StorageAccountName} -PackagePath #{Octopus.Action.Package[mattallford-com-blog].ExtractedPath}"
+            Octopus.Action.Script.ScriptSource = "GitRepository"
+            OctopusUseBundledTooling = "False"
+        }
+        worker_pool = "hosted-ubuntu"
+
+        container {
+            feed = "dockerhub"
+            image = "octopuslabs/azure-workertools:2.83.0"
+        }
+
+        packages "mattallford-com-blog" {
+            acquisition_location = "Server"
+            feed = "octopus-server-built-in"
+            package_id = "mattallford-com-blog"
+            properties = {
+                Extract = "True"
+                SelectionMode = "immediate"
+            }
+        }
+    }
+}
+
+step "comment-on-pr-with-environment-url" {
+    name = "Comment on PR with Environment URL"
+
+    action {
+        action_type = "Octopus.Script"
+        environments = ["ephemeral-environments"]
+        properties = {
+            Octopus.Action.Script.ScriptBody = <<-EOT
+                export GH_TOKEN=$(get_octopusvariable "GitHub.Token")
+                
+                pull_request_number=$(get_octopusvariable "Octopus.Release.CustomFields[PullRequestNumber]")
+                
+                environment_name=$(get_octopusvariable "Octopus.Environment.Name")
+                ephemeral_url="#{Octopus.Action[Get Static Site URL].Output.StaticWebsiteUrl}"
+                
+                echo "Adding comment to pull request"
+                
+                cat <<EOF > comment.txt
+                
+                Pull request environment available at $ephemeral_url
+                
+                You can view the [ephemeral environment status in Octopus](https://mattallford.octopus.app/app#/Spaces-1/projects/mattallford-com/ephemeral-environments?page=1&environmentName=$environment_name&status=all). 
+                
+                This environment will be automatically deprovisioned.
+                EOF
+                
+                gh pr comment $pull_request_number --repo mattallford/mattallford-com --edit-last --create-if-none --body-file comment.txt
+                EOT
+            Octopus.Action.Script.ScriptSource = "Inline"
+            Octopus.Action.Script.Syntax = "Bash"
+            OctopusUseBundledTooling = "False"
+        }
+        worker_pool = "hosted-ubuntu"
+
+        container {
+            feed = "dockerhub"
+            image = "octopuslabs/github-workertools:latest"
+        }
+    }
+}
