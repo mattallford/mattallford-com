@@ -40,6 +40,23 @@ process {
         }
     }
 
+    step "set-environment-url-variable" {
+        name = "Set Environment URL Variable"
+
+        action {
+            action_type = "Octopus.Script"
+            properties = {
+                Octopus.Action.Script.ScriptBody = <<-EOT
+                    $url = $OctopusParameters["Octopus.Action[Terraform Apply].Output.static_website_url"]
+                    Set-EnvironmentUrl -Key "Static Site" -Url $url
+                    EOT
+                Octopus.Action.Script.ScriptSource = "Inline"
+                Octopus.Action.Script.Syntax = "PowerShell"
+            }
+            worker_pool = "hosted-ubuntu"
+        }
+    }
+
     step "slack-detailed-notification" {
         condition = "Failure"
         name = "Slack - Detailed Notification"
