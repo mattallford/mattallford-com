@@ -58,7 +58,7 @@ process {
     }
 
     step "slack-detailed-notification" {
-        condition = "Failure"
+        condition = "Always"
         name = "Slack - Detailed Notification"
 
         action {
