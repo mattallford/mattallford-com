@@ -62,6 +62,7 @@ process {
         name = "Slack - Detailed Notification"
 
         action {
+            is_disabled = true
             properties = {
                 Channel = "octopus-webhook"
                 DeploymentInfoText = "#{Octopus.Project.Name} release #{Octopus.Release.Number} to #{Octopus.Environment.Name} (#{Octopus.Machine.Name}) #{Octopus.Environment.State[Static Site]}"
@@ -79,6 +80,26 @@ process {
                 Octopus.Action.Template.Version = "12"
                 OctopusBaseUrl = "https://mattallford.octopus.app"
                 Username = "Octopus Deploy"
+            }
+            worker_pool = "hosted-ubuntu"
+        }
+    }
+
+    step "slack-send-simple-notification" {
+        condition = "Always"
+        name = "Slack - Send Simple Notification"
+
+        action {
+            properties = {
+                Octopus.Action.Template.Id = "ActionTemplates-101"
+                Octopus.Action.Template.Version = "15"
+                ssn_Channel = "octopus-webhook"
+                ssn_Color = "good"
+                ssn_HookUrl = "#{Slack.Webhook}"
+                ssn_IconUrl = "https://octopus.com/content/resources/favicon.png"
+                ssn_Message = "#{Octopus.Project.Name} release #{Octopus.Release.Number} to #{Octopus.Environment.Name} (#{Octopus.Machine.Name}) #{Octopus.Environment.State[Static Site]}"
+                ssn_Title = "test"
+                ssn_Username = "Octopus Deploy"
             }
             worker_pool = "hosted-ubuntu"
         }
