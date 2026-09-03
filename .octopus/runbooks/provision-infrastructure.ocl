@@ -97,7 +97,7 @@ process {
                 ssn_Color = "good"
                 ssn_HookUrl = "#{Slack.Webhook}"
                 ssn_IconUrl = "https://octopus.com/content/resources/favicon.png"
-                ssn_Message = "#{Octopus.Project.Name} release #{Octopus.Release.Number} to #{Octopus.Environment.Name} (#{Octopus.Machine.Name}) #{Octopus.Environment.State[Static Site]}"
+                ssn_Message = "#{Octopus.Project.Name} release #{Octopus.Release.Number} to <#{Octopus.Environment.State[Static Site]}|#{Octopus.Environment.Name} :arrow_upper_right:>"
                 ssn_Title = "test"
                 ssn_Username = "Octopus Deploy"
             }
